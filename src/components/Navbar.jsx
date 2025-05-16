@@ -14,7 +14,7 @@ import {
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="w-full">
       {/* For medium device Navbar */}
       <div className="w-full max-w-[1440px] h-[72px] border-b border-gray-200 px-16 mx-auto sticky top-0 hidden md:flex items-center justify-between shadow">
         <div className="flex flex-row flex-1 gap-4 items-center">
@@ -44,8 +44,8 @@ const Navbar = () => {
         </div>
       </div>
       {/* For Mobile Navbar */}
-      <div className="md:hidden">
-        <div className="w-full max-w-[1440px] h-[72px] border-b border-gray-200 px-16 mx-auto flex items-center justify-between shadow">
+      <div className="md:hidden  w-full">
+        <div className="w-full max-w-[1440px] h-[72px] border-b border-gray-200 px-8 mx-auto flex items-center justify-between shadow">
           <div>
             <img src={logo} className="w-[48px] h-[43px] hover:cursor-pointer" />
           </div>

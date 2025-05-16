@@ -5,14 +5,14 @@ import "../../src/App.css";
 
 const HeroSection = () => {
   return (
-    <div className="flex justify-center  items-start">
+    <div className="flex justify-center  items-start w-full">
       <div
-        className="w-screen  h-screen bg-cover bg-center"
+        className=" flex w-screen  h-screen bg-cover bg-center "
         style={{ backgroundImage: `url(${HeroImg})` }}
       >
         <div className="flex md:justify-center items-center justify-start w-full h-full">
-          <div className="flex flex-col justify-center items-center ">
-            <div className="flex-1 md:max-w-[831px] md:h-[134px] p-4  w-screen">
+          <div className="flex flex-col justify-start items-start md:justify-center md:items-center  ">
+            <div className="flex-1 md:max-w-[831px] md:h-[134px] p-4  w-full">
               <p className="font-bold md:text-[56px] text-[40px] leading-[120%] md:text-center text-start  text-white poppins-bold">
                 Empowering Undergraduate Research
               </p>
@@ -32,14 +32,14 @@ const HeroSection = () => {
                 </svg>
               </div>
             </div>
-            <div className="flex-1 md:max-w-[560px] md:h-[811px]  w-screen p-4 ">
+            <div className="flex-1 md:max-w-[560px] md:h-[811px]  w-full p-4 ">
               <p className=" text-white md:text-[18px] text-[16px] leading-[150%] md:text-center text-start poppins-extralight ">
                 Join us in fostering a vibrant community of undergraduate
                 researchers. Together, we can explore innovative ideas and make
                 impactful contributions to various fields.
               </p>
             </div>
-            <div className="flex-1 gap-2 p-4 ">
+            <div className="flex-1 gap-2 p-4 flex justify-start md:justify-center  ">
               <Button className="rounded-none h-[48px] w-[144px] hover:cursor-pointer text-black bg-white py-4 px-8 hover:bg-blue-400 border-[1px] ">
                 Register Now
               </Button>
