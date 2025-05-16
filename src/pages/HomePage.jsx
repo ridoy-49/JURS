@@ -7,6 +7,7 @@ import ViewAllEvent from "../components/ViewAllEvent";
 import ScienceEvent from "../components/ScienceEvent";
 import ArtsEvent from "../components/ArtsEvent";
 import BBAEvant from "../components/BBAEvant";
+import cartimg from "../assets/cart image.jpg";
 
 const HomePage = () => {
   const [faculty, setFaculty] = useState("View all");
@@ -139,7 +140,7 @@ const HomePage = () => {
         </div>
 
         {/* same X padding */}
-        <div className="px-6 md:px-10 w-full">
+        <div className="px-6 md:px-12 w-full">
           {/* no.1 div*/}
           <div className="grid grid-cols-1 md:grid-cols-3 ">
             <div className="my-6 md:mr-12 ">
@@ -211,7 +212,7 @@ const HomePage = () => {
           </div>
 
           {/* no.2 div */}
-          <div className="py-6 md:py-18 flex flex-col justify-start items-start">
+          <div className="py-3 md:py-5 flex flex-col justify-start items-start">
             <div className="my-3">
               <span className="px-3 border border-[#232323] rounded-2xl">
                 Future
@@ -288,8 +289,122 @@ const HomePage = () => {
             </div>
           </div>
           {/* no.3 div */}
-          <div>
-            
+          <div className="flex flex-col items-center md:gap-20 gap-6">
+            <div className="flex max-w-[767px]">
+              <h1 className="text-[40px] font-bold leading-[120%] text-center">
+                Explore Our Engaging Workshops and Enhance Your Research Skills
+              </h1>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 py-2 gap-8">
+              <div className="flex flex-col  pb-6 gap-8 hover:cursor-pointer">
+                <img
+                  src={cartimg}
+                  className="h-[240px] w-screen rounded-t-2xl "
+                />
+                <div className="flex flex-col gap-4 ">
+                  <h1 className="font-bold leading-[140%] text-[24px] text-center">
+                    Join Us for Innovative Learning Experiences and Networking
+                    Opportunities
+                  </h1>
+                  <p className="text-[16px] text-center leading-[150%]">
+                    Our workshops are designed to empower students with hands-on
+                    research experience.
+                  </p>
+                </div>
+                <div className="flex justify-center">
+                  <p className="flex flex-row gap-2 px-4 py-2 border-2 border-white hover:border-blue-500 hover:border-2">
+                    Learn
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="w-6 h-6 fill-[#232323]"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M9.70697 16.9496L15.414 11.2426L9.70697 5.53564L8.29297 6.94964L12.586 11.2426L8.29297 15.5356L9.70697 16.9496Z" />
+                      </svg>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col  pb-6 gap-8 hover:cursor-pointer">
+                <img
+                  src={cartimg}
+                  className="h-[240px] w-screen rounded-t-2xl "
+                />
+                <div className="flex flex-col gap-4 ">
+                  <h1 className="font-bold leading-[140%] text-[24px] text-center">
+                    Join Us for Innovative Learning Experiences and Networking
+                    Opportunities
+                  </h1>
+                  <p className="text-[16px] text-center leading-[150%]">
+                    Our workshops are designed to empower students with hands-on
+                    research experience.
+                  </p>
+                </div>
+                <div className="flex justify-center">
+                  <p className="flex flex-row gap-2 px-4 py-2 border-2 border-white hover:border-blue-500 hover:border-2">
+                    Learn
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="w-6 h-6 fill-[#232323]"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M9.70697 16.9496L15.414 11.2426L9.70697 5.53564L8.29297 6.94964L12.586 11.2426L8.29297 15.5356L9.70697 16.9496Z" />
+                      </svg>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col  pb-6 gap-8 hover:cursor-pointer">
+                <img
+                  src={cartimg}
+                  className="h-[240px] w-screen rounded-t-2xl "
+                />
+                <div className="flex flex-col gap-4 ">
+                  <h1 className="font-bold leading-[140%] text-[24px] text-center">
+                    Join Us for Innovative Learning Experiences and Networking
+                    Opportunities
+                  </h1>
+                  <p className="text-[16px] text-center leading-[150%]">
+                    Our workshops are designed to empower students with hands-on
+                    research experience.
+                  </p>
+                </div>
+                <div className="flex justify-center">
+                  <p className="flex flex-row gap-2 px-4 py-2 border-2 border-white hover:border-blue-500 hover:border-2">
+                    Learn
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="w-6 h-6 fill-[#232323]"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M9.70697 16.9496L15.414 11.2426L9.70697 5.53564L8.29297 6.94964L12.586 11.2426L8.29297 15.5356L9.70697 16.9496Z" />
+                      </svg>
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/*no.4 div */}
+          <div className="flex flex-col items-center md:py-28 md:gap-20 gap-16 py-16">
+            <div className="flex flex-col gap-4">
+              <p className="text-center font-semibold text-[16px] leading-[150%]">
+                Meet
+              </p>
+              <div className="gap-6 flex flex-col">
+                <h1 className="text-center font-bold text-[48px] leading-[120%] ">Our Team</h1>
+              <p className="text-center text-[18px] leading-[150%]">
+                Dedicated professionals committed to advancing research.
+              </p>
+              </div>
+            </div>
+            <div className="gird grid-cols-3 gap-16 ">
+              
+
+            </div>
           </div>
         </div>
       </div>
