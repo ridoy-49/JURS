@@ -8,6 +8,9 @@ import ScienceEvent from "../components/ScienceEvent";
 import ArtsEvent from "../components/ArtsEvent";
 import BBAEvant from "../components/BBAEvant";
 import cartimg from "../assets/cart image.jpg";
+import profileImg from "../assets/profile.png";
+import groupImg from "../assets/group img.jpg";
+import habib from "../assets/Habib.jpg";
 
 const HomePage = () => {
   const [faculty, setFaculty] = useState("View all");
@@ -54,7 +57,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="bg-gray-100 py-2 w-full">
+        <div className="bg-gray-100 py-2 pb-14 w-full">
           <h2 className=" text-center poppins-semibold text-[56px] leading-[120%] p-6">
             Up coming <span className="text-[#1976BB]">Events</span>
           </h2>
@@ -388,22 +391,480 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-          {/*no.4 div */}
+          {/*profile div */}
           <div className="flex flex-col items-center md:py-28 md:gap-20 gap-16 py-16">
             <div className="flex flex-col gap-4">
               <p className="text-center font-semibold text-[16px] leading-[150%]">
                 Meet
               </p>
               <div className="gap-6 flex flex-col">
-                <h1 className="text-center font-bold text-[48px] leading-[120%] ">Our Team</h1>
-              <p className="text-center text-[18px] leading-[150%]">
-                Dedicated professionals committed to advancing research.
-              </p>
+                <h1 className="text-center font-bold text-[48px] leading-[120%] ">
+                  Our Team
+                </h1>
+                <p className="text-center text-[18px] leading-[150%]">
+                  Dedicated professionals committed to advancing research.
+                </p>
               </div>
             </div>
-            <div className="gird grid-cols-3 gap-16 ">
-              
+            <div className="grid grid-cols-1 md:grid-cols-3  gap-y-18 gap-x-16 ">
+              <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
+                <img src={profileImg} className="w-80 h-40 rounded-b-full" />
+                <div className="flex flex-col gap-4">
+                  <div>
+                    <p className="text-center font-semibold text-[20px] leading-[150%]">
+                      Alice Johnson
+                    </p>
+                    <p className="text-center font-light text-[14px] leading-[150%]">
+                      Project Lead
+                    </p>
+                    <p className="text-center text-[16px] leading-[150%] my-4">
+                      Passionate about guiding research initiatives and
+                      fostering student engagement in innovative projects.
+                    </p>
+                  </div>
+                </div>
+                <div className="flex flex-row gap-[14px]">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6 fill-[#232323] hover:border hover:border-blue-500 hover:cursor-pointer"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M4.5 3.24268C3.67157 3.24268 3 3.91425 3 4.74268V19.7427C3 20.5711 3.67157 21.2427 4.5 21.2427H19.5C20.3284 21.2427 21 20.5711 21 19.7427V4.74268C21 3.91425 20.3284 3.24268 19.5 3.24268H4.5ZM8.52076 7.2454C8.52639 8.20165 7.81061 8.79087 6.96123 8.78665C6.16107 8.78243 5.46357 8.1454 5.46779 7.24681C5.47201 6.40165 6.13998 5.72243 7.00764 5.74212C7.88795 5.76181 8.52639 6.40728 8.52076 7.2454ZM12.2797 10.0044H9.75971H9.7583V18.5643H12.4217V18.3646C12.4217 17.9847 12.4214 17.6047 12.4211 17.2246C12.4203 16.2108 12.4194 15.1959 12.4246 14.1824C12.426 13.9363 12.4372 13.6804 12.5005 13.4455C12.7381 12.568 13.5271 12.0013 14.4074 12.1406C14.9727 12.2291 15.3467 12.5568 15.5042 13.0898C15.6013 13.423 15.6449 13.7816 15.6491 14.129C15.6605 15.1766 15.6589 16.2242 15.6573 17.2719C15.6567 17.6417 15.6561 18.0117 15.6561 18.3815V18.5629H18.328V18.3576C18.328 17.9056 18.3278 17.4537 18.3275 17.0018C18.327 15.8723 18.3264 14.7428 18.3294 13.6129C18.3308 13.1024 18.276 12.599 18.1508 12.1054C17.9638 11.3713 17.5771 10.7638 16.9485 10.3251C16.5027 10.0129 16.0133 9.81178 15.4663 9.78928C15.404 9.78669 15.3412 9.7833 15.2781 9.77989C14.9984 9.76477 14.7141 9.74941 14.4467 9.80334C13.6817 9.95662 13.0096 10.3068 12.5019 10.9241C12.4429 10.9949 12.3852 11.0668 12.2991 11.1741L12.2797 11.1984V10.0044ZM5.68164 18.5671H8.33242V10.01H5.68164V18.5671Z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6 fill-[#232323] hover:border hover:border-blue-500 hover:cursor-pointer"
+                  >
+                    <path d="M17.1761 4.24268H19.9362L13.9061 11.0201L21 20.2427H15.4456L11.0951 14.6493L6.11723 20.2427H3.35544L9.80517 12.9935L3 4.24268H8.69545L12.6279 9.3553L17.1761 4.24268ZM16.2073 18.6181H17.7368L7.86441 5.78196H6.2232L16.2073 18.6181Z" />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6 fill-[#232323] hover:border hover:border-blue-500 hover:cursor-pointer"
+                  >
+                    <path d="M22 12.3038C22 6.74719 17.5229 2.24268 12 2.24268C6.47715 2.24268 2 6.74719 2 12.3038C2 17.3255 5.65684 21.4879 10.4375 22.2427V15.2121H7.89844V12.3038H10.4375V10.0872C10.4375 7.56564 11.9305 6.1728 14.2146 6.1728C15.3088 6.1728 16.4531 6.36931 16.4531 6.36931V8.84529H15.1922C13.95 8.84529 13.5625 9.6209 13.5625 10.4166V12.3038H16.3359L15.8926 15.2121H13.5625V22.2427C18.3432 21.4879 22 17.3257 22 12.3038Z" />
+                  </svg>
+                </div>
+              </div>
+              <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
+                <img src={profileImg} className="w-80 h-40 rounded-b-full" />
+                <div className="flex flex-col gap-4">
+                  <div>
+                    <p className="text-center font-semibold text-[20px] leading-[150%]">
+                      Alice Johnson
+                    </p>
+                    <p className="text-center font-light text-[14px] leading-[150%]">
+                      Project Lead
+                    </p>
+                    <p className="text-center text-[16px] leading-[150%] my-4">
+                      Passionate about guiding research initiatives and
+                      fostering student engagement in innovative projects.
+                    </p>
+                  </div>
+                </div>
+                <div className="flex flex-row gap-[14px]">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6 fill-[#232323] hover:border hover:border-blue-500 hover:cursor-pointer"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M4.5 3.24268C3.67157 3.24268 3 3.91425 3 4.74268V19.7427C3 20.5711 3.67157 21.2427 4.5 21.2427H19.5C20.3284 21.2427 21 20.5711 21 19.7427V4.74268C21 3.91425 20.3284 3.24268 19.5 3.24268H4.5ZM8.52076 7.2454C8.52639 8.20165 7.81061 8.79087 6.96123 8.78665C6.16107 8.78243 5.46357 8.1454 5.46779 7.24681C5.47201 6.40165 6.13998 5.72243 7.00764 5.74212C7.88795 5.76181 8.52639 6.40728 8.52076 7.2454ZM12.2797 10.0044H9.75971H9.7583V18.5643H12.4217V18.3646C12.4217 17.9847 12.4214 17.6047 12.4211 17.2246C12.4203 16.2108 12.4194 15.1959 12.4246 14.1824C12.426 13.9363 12.4372 13.6804 12.5005 13.4455C12.7381 12.568 13.5271 12.0013 14.4074 12.1406C14.9727 12.2291 15.3467 12.5568 15.5042 13.0898C15.6013 13.423 15.6449 13.7816 15.6491 14.129C15.6605 15.1766 15.6589 16.2242 15.6573 17.2719C15.6567 17.6417 15.6561 18.0117 15.6561 18.3815V18.5629H18.328V18.3576C18.328 17.9056 18.3278 17.4537 18.3275 17.0018C18.327 15.8723 18.3264 14.7428 18.3294 13.6129C18.3308 13.1024 18.276 12.599 18.1508 12.1054C17.9638 11.3713 17.5771 10.7638 16.9485 10.3251C16.5027 10.0129 16.0133 9.81178 15.4663 9.78928C15.404 9.78669 15.3412 9.7833 15.2781 9.77989C14.9984 9.76477 14.7141 9.74941 14.4467 9.80334C13.6817 9.95662 13.0096 10.3068 12.5019 10.9241C12.4429 10.9949 12.3852 11.0668 12.2991 11.1741L12.2797 11.1984V10.0044ZM5.68164 18.5671H8.33242V10.01H5.68164V18.5671Z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6 fill-[#232323] hover:border hover:border-blue-500 hover:cursor-pointer"
+                  >
+                    <path d="M17.1761 4.24268H19.9362L13.9061 11.0201L21 20.2427H15.4456L11.0951 14.6493L6.11723 20.2427H3.35544L9.80517 12.9935L3 4.24268H8.69545L12.6279 9.3553L17.1761 4.24268ZM16.2073 18.6181H17.7368L7.86441 5.78196H6.2232L16.2073 18.6181Z" />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6 fill-[#232323] hover:border hover:border-blue-500 hover:cursor-pointer"
+                  >
+                    <path d="M22 12.3038C22 6.74719 17.5229 2.24268 12 2.24268C6.47715 2.24268 2 6.74719 2 12.3038C2 17.3255 5.65684 21.4879 10.4375 22.2427V15.2121H7.89844V12.3038H10.4375V10.0872C10.4375 7.56564 11.9305 6.1728 14.2146 6.1728C15.3088 6.1728 16.4531 6.36931 16.4531 6.36931V8.84529H15.1922C13.95 8.84529 13.5625 9.6209 13.5625 10.4166V12.3038H16.3359L15.8926 15.2121H13.5625V22.2427C18.3432 21.4879 22 17.3257 22 12.3038Z" />
+                  </svg>
+                </div>
+              </div>
+              <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
+                <img src={profileImg} className="w-80 h-40 rounded-b-full" />
+                <div className="flex flex-col gap-4">
+                  <div>
+                    <p className="text-center font-semibold text-[20px] leading-[150%]">
+                      Alice Johnson
+                    </p>
+                    <p className="text-center font-light text-[14px] leading-[150%]">
+                      Project Lead
+                    </p>
+                    <p className="text-center text-[16px] leading-[150%] my-4">
+                      Passionate about guiding research initiatives and
+                      fostering student engagement in innovative projects.
+                    </p>
+                  </div>
+                </div>
+                <div className="flex flex-row gap-[14px]">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6 fill-[#232323] hover:border hover:border-blue-500 hover:cursor-pointer"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M4.5 3.24268C3.67157 3.24268 3 3.91425 3 4.74268V19.7427C3 20.5711 3.67157 21.2427 4.5 21.2427H19.5C20.3284 21.2427 21 20.5711 21 19.7427V4.74268C21 3.91425 20.3284 3.24268 19.5 3.24268H4.5ZM8.52076 7.2454C8.52639 8.20165 7.81061 8.79087 6.96123 8.78665C6.16107 8.78243 5.46357 8.1454 5.46779 7.24681C5.47201 6.40165 6.13998 5.72243 7.00764 5.74212C7.88795 5.76181 8.52639 6.40728 8.52076 7.2454ZM12.2797 10.0044H9.75971H9.7583V18.5643H12.4217V18.3646C12.4217 17.9847 12.4214 17.6047 12.4211 17.2246C12.4203 16.2108 12.4194 15.1959 12.4246 14.1824C12.426 13.9363 12.4372 13.6804 12.5005 13.4455C12.7381 12.568 13.5271 12.0013 14.4074 12.1406C14.9727 12.2291 15.3467 12.5568 15.5042 13.0898C15.6013 13.423 15.6449 13.7816 15.6491 14.129C15.6605 15.1766 15.6589 16.2242 15.6573 17.2719C15.6567 17.6417 15.6561 18.0117 15.6561 18.3815V18.5629H18.328V18.3576C18.328 17.9056 18.3278 17.4537 18.3275 17.0018C18.327 15.8723 18.3264 14.7428 18.3294 13.6129C18.3308 13.1024 18.276 12.599 18.1508 12.1054C17.9638 11.3713 17.5771 10.7638 16.9485 10.3251C16.5027 10.0129 16.0133 9.81178 15.4663 9.78928C15.404 9.78669 15.3412 9.7833 15.2781 9.77989C14.9984 9.76477 14.7141 9.74941 14.4467 9.80334C13.6817 9.95662 13.0096 10.3068 12.5019 10.9241C12.4429 10.9949 12.3852 11.0668 12.2991 11.1741L12.2797 11.1984V10.0044ZM5.68164 18.5671H8.33242V10.01H5.68164V18.5671Z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6 fill-[#232323] hover:border hover:border-blue-500 hover:cursor-pointer"
+                  >
+                    <path d="M17.1761 4.24268H19.9362L13.9061 11.0201L21 20.2427H15.4456L11.0951 14.6493L6.11723 20.2427H3.35544L9.80517 12.9935L3 4.24268H8.69545L12.6279 9.3553L17.1761 4.24268ZM16.2073 18.6181H17.7368L7.86441 5.78196H6.2232L16.2073 18.6181Z" />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6 fill-[#232323] hover:border hover:border-blue-500 hover:cursor-pointer"
+                  >
+                    <path d="M22 12.3038C22 6.74719 17.5229 2.24268 12 2.24268C6.47715 2.24268 2 6.74719 2 12.3038C2 17.3255 5.65684 21.4879 10.4375 22.2427V15.2121H7.89844V12.3038H10.4375V10.0872C10.4375 7.56564 11.9305 6.1728 14.2146 6.1728C15.3088 6.1728 16.4531 6.36931 16.4531 6.36931V8.84529H15.1922C13.95 8.84529 13.5625 9.6209 13.5625 10.4166V12.3038H16.3359L15.8926 15.2121H13.5625V22.2427C18.3432 21.4879 22 17.3257 22 12.3038Z" />
+                  </svg>
+                </div>
+              </div>
+              <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
+                <img src={profileImg} className="w-80 h-40 rounded-b-full" />
+                <div className="flex flex-col gap-4">
+                  <div>
+                    <p className="text-center font-semibold text-[20px] leading-[150%]">
+                      Alice Johnson
+                    </p>
+                    <p className="text-center font-light text-[14px] leading-[150%]">
+                      Project Lead
+                    </p>
+                    <p className="text-center text-[16px] leading-[150%] my-4">
+                      Passionate about guiding research initiatives and
+                      fostering student engagement in innovative projects.
+                    </p>
+                  </div>
+                </div>
+                <div className="flex flex-row gap-[14px]">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6 fill-[#232323] hover:border hover:border-blue-500 hover:cursor-pointer"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M4.5 3.24268C3.67157 3.24268 3 3.91425 3 4.74268V19.7427C3 20.5711 3.67157 21.2427 4.5 21.2427H19.5C20.3284 21.2427 21 20.5711 21 19.7427V4.74268C21 3.91425 20.3284 3.24268 19.5 3.24268H4.5ZM8.52076 7.2454C8.52639 8.20165 7.81061 8.79087 6.96123 8.78665C6.16107 8.78243 5.46357 8.1454 5.46779 7.24681C5.47201 6.40165 6.13998 5.72243 7.00764 5.74212C7.88795 5.76181 8.52639 6.40728 8.52076 7.2454ZM12.2797 10.0044H9.75971H9.7583V18.5643H12.4217V18.3646C12.4217 17.9847 12.4214 17.6047 12.4211 17.2246C12.4203 16.2108 12.4194 15.1959 12.4246 14.1824C12.426 13.9363 12.4372 13.6804 12.5005 13.4455C12.7381 12.568 13.5271 12.0013 14.4074 12.1406C14.9727 12.2291 15.3467 12.5568 15.5042 13.0898C15.6013 13.423 15.6449 13.7816 15.6491 14.129C15.6605 15.1766 15.6589 16.2242 15.6573 17.2719C15.6567 17.6417 15.6561 18.0117 15.6561 18.3815V18.5629H18.328V18.3576C18.328 17.9056 18.3278 17.4537 18.3275 17.0018C18.327 15.8723 18.3264 14.7428 18.3294 13.6129C18.3308 13.1024 18.276 12.599 18.1508 12.1054C17.9638 11.3713 17.5771 10.7638 16.9485 10.3251C16.5027 10.0129 16.0133 9.81178 15.4663 9.78928C15.404 9.78669 15.3412 9.7833 15.2781 9.77989C14.9984 9.76477 14.7141 9.74941 14.4467 9.80334C13.6817 9.95662 13.0096 10.3068 12.5019 10.9241C12.4429 10.9949 12.3852 11.0668 12.2991 11.1741L12.2797 11.1984V10.0044ZM5.68164 18.5671H8.33242V10.01H5.68164V18.5671Z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6 fill-[#232323] hover:border hover:border-blue-500 hover:cursor-pointer"
+                  >
+                    <path d="M17.1761 4.24268H19.9362L13.9061 11.0201L21 20.2427H15.4456L11.0951 14.6493L6.11723 20.2427H3.35544L9.80517 12.9935L3 4.24268H8.69545L12.6279 9.3553L17.1761 4.24268ZM16.2073 18.6181H17.7368L7.86441 5.78196H6.2232L16.2073 18.6181Z" />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6 fill-[#232323] hover:border hover:border-blue-500 hover:cursor-pointer"
+                  >
+                    <path d="M22 12.3038C22 6.74719 17.5229 2.24268 12 2.24268C6.47715 2.24268 2 6.74719 2 12.3038C2 17.3255 5.65684 21.4879 10.4375 22.2427V15.2121H7.89844V12.3038H10.4375V10.0872C10.4375 7.56564 11.9305 6.1728 14.2146 6.1728C15.3088 6.1728 16.4531 6.36931 16.4531 6.36931V8.84529H15.1922C13.95 8.84529 13.5625 9.6209 13.5625 10.4166V12.3038H16.3359L15.8926 15.2121H13.5625V22.2427C18.3432 21.4879 22 17.3257 22 12.3038Z" />
+                  </svg>
+                </div>
+              </div>
+              <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
+                <img src={profileImg} className="w-80 h-40 rounded-b-full" />
+                <div className="flex flex-col gap-4">
+                  <div>
+                    <p className="text-center font-semibold text-[20px] leading-[150%]">
+                      Alice Johnson
+                    </p>
+                    <p className="text-center font-light text-[14px] leading-[150%]">
+                      Project Lead
+                    </p>
+                    <p className="text-center text-[16px] leading-[150%] my-4">
+                      Passionate about guiding research initiatives and
+                      fostering student engagement in innovative projects.
+                    </p>
+                  </div>
+                </div>
+                <div className="flex flex-row gap-[14px]">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6 fill-[#232323] hover:border hover:border-blue-500 hover:cursor-pointer"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M4.5 3.24268C3.67157 3.24268 3 3.91425 3 4.74268V19.7427C3 20.5711 3.67157 21.2427 4.5 21.2427H19.5C20.3284 21.2427 21 20.5711 21 19.7427V4.74268C21 3.91425 20.3284 3.24268 19.5 3.24268H4.5ZM8.52076 7.2454C8.52639 8.20165 7.81061 8.79087 6.96123 8.78665C6.16107 8.78243 5.46357 8.1454 5.46779 7.24681C5.47201 6.40165 6.13998 5.72243 7.00764 5.74212C7.88795 5.76181 8.52639 6.40728 8.52076 7.2454ZM12.2797 10.0044H9.75971H9.7583V18.5643H12.4217V18.3646C12.4217 17.9847 12.4214 17.6047 12.4211 17.2246C12.4203 16.2108 12.4194 15.1959 12.4246 14.1824C12.426 13.9363 12.4372 13.6804 12.5005 13.4455C12.7381 12.568 13.5271 12.0013 14.4074 12.1406C14.9727 12.2291 15.3467 12.5568 15.5042 13.0898C15.6013 13.423 15.6449 13.7816 15.6491 14.129C15.6605 15.1766 15.6589 16.2242 15.6573 17.2719C15.6567 17.6417 15.6561 18.0117 15.6561 18.3815V18.5629H18.328V18.3576C18.328 17.9056 18.3278 17.4537 18.3275 17.0018C18.327 15.8723 18.3264 14.7428 18.3294 13.6129C18.3308 13.1024 18.276 12.599 18.1508 12.1054C17.9638 11.3713 17.5771 10.7638 16.9485 10.3251C16.5027 10.0129 16.0133 9.81178 15.4663 9.78928C15.404 9.78669 15.3412 9.7833 15.2781 9.77989C14.9984 9.76477 14.7141 9.74941 14.4467 9.80334C13.6817 9.95662 13.0096 10.3068 12.5019 10.9241C12.4429 10.9949 12.3852 11.0668 12.2991 11.1741L12.2797 11.1984V10.0044ZM5.68164 18.5671H8.33242V10.01H5.68164V18.5671Z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6 fill-[#232323] hover:border hover:border-blue-500 hover:cursor-pointer"
+                  >
+                    <path d="M17.1761 4.24268H19.9362L13.9061 11.0201L21 20.2427H15.4456L11.0951 14.6493L6.11723 20.2427H3.35544L9.80517 12.9935L3 4.24268H8.69545L12.6279 9.3553L17.1761 4.24268ZM16.2073 18.6181H17.7368L7.86441 5.78196H6.2232L16.2073 18.6181Z" />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6 fill-[#232323] hover:border hover:border-blue-500 hover:cursor-pointer"
+                  >
+                    <path d="M22 12.3038C22 6.74719 17.5229 2.24268 12 2.24268C6.47715 2.24268 2 6.74719 2 12.3038C2 17.3255 5.65684 21.4879 10.4375 22.2427V15.2121H7.89844V12.3038H10.4375V10.0872C10.4375 7.56564 11.9305 6.1728 14.2146 6.1728C15.3088 6.1728 16.4531 6.36931 16.4531 6.36931V8.84529H15.1922C13.95 8.84529 13.5625 9.6209 13.5625 10.4166V12.3038H16.3359L15.8926 15.2121H13.5625V22.2427C18.3432 21.4879 22 17.3257 22 12.3038Z" />
+                  </svg>
+                </div>
+              </div>
+              <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
+                <img src={profileImg} className="w-80 h-40 rounded-b-full" />
+                <div className="flex flex-col gap-4">
+                  <div>
+                    <p className="text-center font-semibold text-[20px] leading-[150%]">
+                      Alice Johnson
+                    </p>
+                    <p className="text-center font-light text-[14px] leading-[150%]">
+                      Project Lead
+                    </p>
+                    <p className="text-center text-[16px] leading-[150%] my-4">
+                      Passionate about guiding research initiatives and
+                      fostering student engagement in innovative projects.
+                    </p>
+                  </div>
+                </div>
+                <div className="flex flex-row gap-[14px]">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6 fill-[#232323] hover:border hover:border-blue-500 hover:cursor-pointer"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M4.5 3.24268C3.67157 3.24268 3 3.91425 3 4.74268V19.7427C3 20.5711 3.67157 21.2427 4.5 21.2427H19.5C20.3284 21.2427 21 20.5711 21 19.7427V4.74268C21 3.91425 20.3284 3.24268 19.5 3.24268H4.5ZM8.52076 7.2454C8.52639 8.20165 7.81061 8.79087 6.96123 8.78665C6.16107 8.78243 5.46357 8.1454 5.46779 7.24681C5.47201 6.40165 6.13998 5.72243 7.00764 5.74212C7.88795 5.76181 8.52639 6.40728 8.52076 7.2454ZM12.2797 10.0044H9.75971H9.7583V18.5643H12.4217V18.3646C12.4217 17.9847 12.4214 17.6047 12.4211 17.2246C12.4203 16.2108 12.4194 15.1959 12.4246 14.1824C12.426 13.9363 12.4372 13.6804 12.5005 13.4455C12.7381 12.568 13.5271 12.0013 14.4074 12.1406C14.9727 12.2291 15.3467 12.5568 15.5042 13.0898C15.6013 13.423 15.6449 13.7816 15.6491 14.129C15.6605 15.1766 15.6589 16.2242 15.6573 17.2719C15.6567 17.6417 15.6561 18.0117 15.6561 18.3815V18.5629H18.328V18.3576C18.328 17.9056 18.3278 17.4537 18.3275 17.0018C18.327 15.8723 18.3264 14.7428 18.3294 13.6129C18.3308 13.1024 18.276 12.599 18.1508 12.1054C17.9638 11.3713 17.5771 10.7638 16.9485 10.3251C16.5027 10.0129 16.0133 9.81178 15.4663 9.78928C15.404 9.78669 15.3412 9.7833 15.2781 9.77989C14.9984 9.76477 14.7141 9.74941 14.4467 9.80334C13.6817 9.95662 13.0096 10.3068 12.5019 10.9241C12.4429 10.9949 12.3852 11.0668 12.2991 11.1741L12.2797 11.1984V10.0044ZM5.68164 18.5671H8.33242V10.01H5.68164V18.5671Z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6 fill-[#232323] hover:border hover:border-blue-500 hover:cursor-pointer"
+                  >
+                    <path d="M17.1761 4.24268H19.9362L13.9061 11.0201L21 20.2427H15.4456L11.0951 14.6493L6.11723 20.2427H3.35544L9.80517 12.9935L3 4.24268H8.69545L12.6279 9.3553L17.1761 4.24268ZM16.2073 18.6181H17.7368L7.86441 5.78196H6.2232L16.2073 18.6181Z" />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6 fill-[#232323] hover:border hover:border-blue-500 hover:cursor-pointer"
+                  >
+                    <path d="M22 12.3038C22 6.74719 17.5229 2.24268 12 2.24268C6.47715 2.24268 2 6.74719 2 12.3038C2 17.3255 5.65684 21.4879 10.4375 22.2427V15.2121H7.89844V12.3038H10.4375V10.0872C10.4375 7.56564 11.9305 6.1728 14.2146 6.1728C15.3088 6.1728 16.4531 6.36931 16.4531 6.36931V8.84529H15.1922C13.95 8.84529 13.5625 9.6209 13.5625 10.4166V12.3038H16.3359L15.8926 15.2121H13.5625V22.2427C18.3432 21.4879 22 17.3257 22 12.3038Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col gap-6 items-center">
+              <div className="flex flex-col gap-4">
+                <p className="text-center text-[32px] font-bold leading-[130%] ">
+                  We're hiring!
+                </p>
+                <p className="text-center text-[18px] leading-[150%] ">
+                  Check out our latest job openings and apply!
+                </p>
+              </div>
+              <Button
+                variant="outline"
+                className="px-4 py-2 w-[155px] hover:bg-blue-500 hover:cursor-pointer"
+              >
+                Open positions
+              </Button>
+            </div>
+          </div>
 
+          {/* no.6 div */}
+          <div className=" md:px-4 w-full">
+            <div className="flex md:flex-row flex-col justify-between items-start px-6 py-5 md:pl-16  md:py-6 gap-2 md:max-w-[1312px] max-[191px]">
+              <div className="flex-1  flex-col flex justify-start items-start">
+                <div className="border rounded-2xl flex justify-center items-center">
+                  <p className="px-2 ">Foundation</p>
+                </div>
+                <div className="flex justify-start items-start py-2">
+                  <h2 className="poppins-semibold text-[40px] leading-[120%]">
+                    Exploring horizons, surpassing every limit
+                  </h2>
+                </div>
+              </div>
+              <div className="flex-1 py-2 md:ml-24 flex flex-col justify-center items-start ">
+                <p className="roboto-nav overflow-auto">
+                  Founded on the principles of curiosity and collaboration, our
+                  research club aims to foster an environment where
+                  undergraduatestudents can explore their academic interests.
+                  Our mission is to empower young researchers by providing
+                  resources, mentorship, and a platform to share their findings
+                  with the world.
+                </p>
+                <Button className="mt-3 bg-white rounded-none text-black hover:cursor-pointer md:hover:border-2 hover:border-2 hover:border-blue-500 hover:bg-white border-black border-2 md:border-0">
+                  Explore
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-6 h-6 fill-current text-blue-500 "
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M9.70697 16.9496L15.414 11.2426L9.70697 5.53564L8.29297 6.94964L12.586 11.2426L8.29297 15.5356L9.70697 16.9496Z" />
+                  </svg>
+                </Button>
+              </div>
+            </div>
+          </div>
+          {/* Group img */}
+          <div className="flex w-full py-12 ">
+            <img src={groupImg} className="w-screen" />
+          </div>
+          {/* Area */}
+          <div className="flex flex-col items-center md:gap-20 gap-6 py-20">
+            <div className="flex max-w-[767px]">
+              <h1 className="text-[40px] font-bold leading-[120%] text-center">
+                Explore Our Engaging Workshops and Enhance Your Research Skills
+              </h1>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 py-2 gap-8">
+              <div className="flex flex-col  pb-6 gap-8 hover:cursor-pointer">
+                <img
+                  src={cartimg}
+                  className="h-[240px] w-screen rounded-t-2xl "
+                />
+                <div className="flex flex-col gap-4 ">
+                  <h1 className="font-bold leading-[140%] text-[24px] text-center">
+                    Join Us for Innovative Learning Experiences and Networking
+                    Opportunities
+                  </h1>
+                  <p className="text-[16px] text-center leading-[150%]">
+                    Our workshops are designed to empower students with hands-on
+                    research experience.
+                  </p>
+                </div>
+                <div className="flex justify-center">
+                  <p className="flex flex-row gap-2 px-4 py-2 border-2 border-white hover:border-blue-500 hover:border-2">
+                    Learn
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="w-6 h-6 fill-[#232323]"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M9.70697 16.9496L15.414 11.2426L9.70697 5.53564L8.29297 6.94964L12.586 11.2426L8.29297 15.5356L9.70697 16.9496Z" />
+                      </svg>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col  pb-6 gap-8 hover:cursor-pointer">
+                <img
+                  src={cartimg}
+                  className="h-[240px] w-screen rounded-t-2xl "
+                />
+                <div className="flex flex-col gap-4 ">
+                  <h1 className="font-bold leading-[140%] text-[24px] text-center">
+                    Join Us for Innovative Learning Experiences and Networking
+                    Opportunities
+                  </h1>
+                  <p className="text-[16px] text-center leading-[150%]">
+                    Our workshops are designed to empower students with hands-on
+                    research experience.
+                  </p>
+                </div>
+                <div className="flex justify-center">
+                  <p className="flex flex-row gap-2 px-4 py-2 border-2 border-white hover:border-blue-500 hover:border-2">
+                    Learn
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="w-6 h-6 fill-[#232323]"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M9.70697 16.9496L15.414 11.2426L9.70697 5.53564L8.29297 6.94964L12.586 11.2426L8.29297 15.5356L9.70697 16.9496Z" />
+                      </svg>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col  pb-6 gap-8 hover:cursor-pointer">
+                <img
+                  src={cartimg}
+                  className="h-[240px] w-screen rounded-t-2xl "
+                />
+                <div className="flex flex-col gap-4 ">
+                  <h1 className="font-bold leading-[140%] text-[24px] text-center">
+                    Join Us for Innovative Learning Experiences and Networking
+                    Opportunities
+                  </h1>
+                  <p className="text-[16px] text-center leading-[150%]">
+                    Our workshops are designed to empower students with hands-on
+                    research experience.
+                  </p>
+                </div>
+                <div className="flex justify-center">
+                  <p className="flex flex-row gap-2 px-4 py-2 border-2 border-white hover:border-blue-500 hover:border-2">
+                    Learn
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="w-6 h-6 fill-[#232323]"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M9.70697 16.9496L15.414 11.2426L9.70697 5.53564L8.29297 6.94964L12.586 11.2426L8.29297 15.5356L9.70697 16.9496Z" />
+                      </svg>
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Habib */}
+          <div className="flex md:flex-row flex-col md:my-10  md:gap-10 gap-5   ">
+            <div className="flex flex-1 flex-col gap-4 md:py-22 py-4">
+              <div className="border rounded-2xl flex justify-center items-center w-28">
+                <p className="px-2 ">Integrity</p>
+              </div>
+              <p className="font-bold text-[48px] leading-[120%] py-1 ">
+                Our Commitment to Research Excellence
+              </p>
+              <p className="text-[18px] leading-[120%] py-1 ">
+                At our research club, we prioritize integrity, collaboration,
+                and innovation. These core values guide our mission to foster an
+                enriching environment for all members.
+              </p>
+              <div className="flex flex-row gap-4">
+                <div className="flex-1 py-2 ">
+                  <p className="font-bold text-[20px] leading-[140%] py-1">Collaboration</p>
+                  <p className=" text-[16px] leading-[150%] py-1">
+                    Working together enhances creativity and leads to
+                    groundbreaking discoveries.
+                  </p>
+                </div>
+                <div className="flex-1 py-2">
+                  <p className="font-bold text-[20px] leading-[140%] py-1">Innovation</p>
+                  <p className=" text-[16px] leading-[150%] py-1">
+                    We encourage new ideas that challenge the status quo and drive progress.
+                  </p>
+                </div>
+              </div>
+              <div className="py-8">
+                <Button variant="outline" className="border-2 border-black rounded-none px-8 hover:bg-blue-500 hover:cursor-pointer">Join</Button>
+              </div>
+            </div>
+            <div className="flex-1">
+              <img src={habib} className="h-[616px]" />
             </div>
           </div>
         </div>
