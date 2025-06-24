@@ -22,14 +22,14 @@ const HomePage = () => {
           <HeroSection />
         </div>
 
-        <div className="px-6 md:px-16 w-full">
-          <div className="flex md:flex-row flex-col justify-between items-start px-6 py-5 md:pl-16  md:py-24 gap-2 md:max-w-[1312px] max-[191px]">
+        <div className="px-4 md:px-16 w-full">
+          <div className="flex md:flex-row flex-col justify-between items-start py-5 md:pl-16  md:py-24 gap-2 md:max-w-[1312px] max-[191px]">
             <div className="flex-1  flex-col flex justify-start items-start">
               <div className="border rounded-2xl flex justify-center items-center">
                 <p className="px-2 ">Foundation</p>
               </div>
               <div className="flex justify-start items-start py-2">
-                <h2 className="poppins-semibold text-[40px] leading-[120%]">
+                <h2 className="poppins-semibold md:text-[40px] text-3xl leading-[120%]">
                   Exploring horizons, surpassing every limit
                 </h2>
               </div>
@@ -57,15 +57,15 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="bg-gray-100 py-2 pb-14 w-full">
-          <h2 className=" text-center poppins-semibold text-[56px] leading-[120%] p-6">
+        <div className="bg-gray-100 py-2 w-full">
+          <h2 className=" text-center poppins-semibold md:text-[56px] text-[40px] leading-[120%] p-6">
             Up coming <span className="text-[#1976BB]">Events</span>
           </h2>
           <div className="flex flex-col md:flex-row">
             <div className="flex-1 flex mr-0">
               <img src={sideheroimg} className="w-screen h-auto" />
             </div>
-            <div className="flex-1 px-16 flex flex-col justify-start items-start">
+            <div className="flex-1 px-4 flex flex-col justify-start items-start">
               <span className="flex flex-row border-2 border-black px-4 py-2 my-6 rounded-3xl">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +79,7 @@ const HomePage = () => {
                   21 February, 2025
                 </span>
               </span>
-              <h2 className="text-[56px] leading-[120%] poppins-semibold py-4">
+              <h2 className="md:text-[56px] text-3xl leading-[120%] poppins-semibold py-4">
                 Heavy metal in river sediments
               </h2>
               <p className="text-[18px] leading-[150%] py-4 poppins-extralight">
@@ -109,14 +109,14 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="px-6 md:px-16 w-full">
+        <div className=" md:px-16 w-full">
           <div className="flex md:flex-row flex-col justify-between items-start px-6 py-5 md:pl-16  md:py-24 gap-2 md:max-w-[1312px] max-[191px]">
             <div className="flex-1  flex-col flex justify-start items-start">
               <div className="border rounded-2xl flex justify-center items-center">
                 <p className="px-2">Achievment</p>
               </div>
               <div className="flex justify-start items-start py-2">
-                <h2 className="poppins-semibold text-[40px] leading-[120%]">
+                <h2 className="poppins-semibold  text-3xl md:text-[40px] leading-[120%]">
                   Celebrating Our Milestones and Successes
                 </h2>
               </div>
@@ -159,7 +159,7 @@ const HomePage = () => {
                   fill="#232323"
                 />
               </svg>
-              <h1 className="poppins-bold text-[32px] leading-[130%] py-4">
+              <h1 className="poppins-bold text-3xl md:text-[32px] leading-[130%] py-4">
                 Notable Awards and Recognitions
               </h1>
               <p className="poppins-light text-[16px] leading-[150%] py-2 ">
@@ -180,7 +180,7 @@ const HomePage = () => {
                 />
               </svg>
 
-              <h1 className="poppins-bold text-[32px] leading-[130%] py-4">
+              <h1 className="poppins-bold text-3xl md:text-[32px] leading-[130%] py-4">
                 Research Contributions to the Community
               </h1>
               <p className="poppins-light text-[16px] leading-[150%] py-2 ">
@@ -205,7 +205,7 @@ const HomePage = () => {
                 />
               </svg>
 
-              <h1 className="poppins-bold text-[32px] leading-[130%] py-4">
+              <h1 className="poppins-bold text-3xl md:text-[32px] leading-[130%] py-4">
                 Programming Contest 2025
               </h1>
               <p className="poppins-light text-[16px] leading-[150%] py-2 ">
@@ -294,7 +294,7 @@ const HomePage = () => {
           {/* no.3 div */}
           <div className="flex flex-col items-center md:gap-20 gap-6">
             <div className="flex max-w-[767px]">
-              <h1 className="text-[40px] font-bold leading-[120%] text-center">
+              <h1 className=" text-3xl md:text-[40px] font-bold leading-[120%] text-center">
                 Explore Our Engaging Workshops and Enhance Your Research Skills
               </h1>
             </div>
@@ -305,7 +305,7 @@ const HomePage = () => {
                   className="h-[240px] w-screen rounded-t-2xl "
                 />
                 <div className="flex flex-col gap-4 ">
-                  <h1 className="font-bold leading-[140%] text-[24px] text-center">
+                  <h1 className="font-bold leading-[140%] text-xl md:text-[24px] text-center">
                     Join Us for Innovative Learning Experiences and Networking
                     Opportunities
                   </h1>
@@ -335,7 +335,7 @@ const HomePage = () => {
                   className="h-[240px] w-screen rounded-t-2xl "
                 />
                 <div className="flex flex-col gap-4 ">
-                  <h1 className="font-bold leading-[140%] text-[24px] text-center">
+                  <h1 className="font-bold leading-[140%] text-xl md:text-[24px] text-center">
                     Join Us for Innovative Learning Experiences and Networking
                     Opportunities
                   </h1>
@@ -365,7 +365,7 @@ const HomePage = () => {
                   className="h-[240px] w-screen rounded-t-2xl "
                 />
                 <div className="flex flex-col gap-4 ">
-                  <h1 className="font-bold leading-[140%] text-[24px] text-center">
+                  <h1 className="font-bold leading-[140%] text-xl md:text-[24px] text-center">
                     Join Us for Innovative Learning Experiences and Networking
                     Opportunities
                   </h1>
@@ -408,7 +408,7 @@ const HomePage = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3  gap-y-18 gap-x-16 ">
               <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src={profileImg} className="w-80 h-40 rounded-b-full" />
+                <img src={profileImg} className="w-80 h-auto rounded-b-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
@@ -452,7 +452,7 @@ const HomePage = () => {
                 </div>
               </div>
               <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src={profileImg} className="w-80 h-40 rounded-b-full" />
+                <img src={profileImg} className="w-80 h-auto rounded-b-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
@@ -496,7 +496,7 @@ const HomePage = () => {
                 </div>
               </div>
               <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src={profileImg} className="w-80 h-40 rounded-b-full" />
+                <img src={profileImg} className="w-80 h-auto rounded-b-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
@@ -540,7 +540,7 @@ const HomePage = () => {
                 </div>
               </div>
               <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src={profileImg} className="w-80 h-40 rounded-b-full" />
+                <img src={profileImg} className="w-80 h-auto rounded-b-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
@@ -584,7 +584,7 @@ const HomePage = () => {
                 </div>
               </div>
               <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src={profileImg} className="w-80 h-40 rounded-b-full" />
+                <img src={profileImg} className="w-80 h-auto rounded-b-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
@@ -628,7 +628,7 @@ const HomePage = () => {
                 </div>
               </div>
               <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src={profileImg} className="w-80 h-40 rounded-b-full" />
+                <img src={profileImg} className="w-80 h-auto rounded-b-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
@@ -671,7 +671,6 @@ const HomePage = () => {
                   </svg>
                 </div>
               </div>
-              
             </div>
             <div className="flex flex-col gap-6 items-center">
               <div className="flex flex-col gap-4">
@@ -699,7 +698,7 @@ const HomePage = () => {
                   <p className="px-2 ">Foundation</p>
                 </div>
                 <div className="flex justify-start items-start py-2">
-                  <h2 className="poppins-semibold text-[40px] leading-[120%]">
+                  <h2 className="poppins-semibold text-3xl md:text-[40px] leading-[120%]">
                     Exploring horizons, surpassing every limit
                   </h2>
                 </div>
@@ -731,9 +730,9 @@ const HomePage = () => {
             <img src={groupImg} className="w-screen" />
           </div>
           {/* Area */}
-          <div className="flex flex-col items-center md:gap-20 gap-6 py-20">
+          <div className="flex flex-col items-center md:gap-20 gap-6">
             <div className="flex max-w-[767px]">
-              <h1 className="text-[40px] font-bold leading-[120%] text-center">
+              <h1 className=" text-3xl md:text-[40px] font-bold leading-[120%] text-center">
                 Explore Our Engaging Workshops and Enhance Your Research Skills
               </h1>
             </div>
@@ -744,7 +743,7 @@ const HomePage = () => {
                   className="h-[240px] w-screen rounded-t-2xl "
                 />
                 <div className="flex flex-col gap-4 ">
-                  <h1 className="font-bold leading-[140%] text-[24px] text-center">
+                  <h1 className="font-bold leading-[140%] text-xl md:text-[24px] text-center">
                     Join Us for Innovative Learning Experiences and Networking
                     Opportunities
                   </h1>
@@ -774,7 +773,7 @@ const HomePage = () => {
                   className="h-[240px] w-screen rounded-t-2xl "
                 />
                 <div className="flex flex-col gap-4 ">
-                  <h1 className="font-bold leading-[140%] text-[24px] text-center">
+                  <h1 className="font-bold leading-[140%] text-xl md:text-[24px] text-center">
                     Join Us for Innovative Learning Experiences and Networking
                     Opportunities
                   </h1>
@@ -804,7 +803,7 @@ const HomePage = () => {
                   className="h-[240px] w-screen rounded-t-2xl "
                 />
                 <div className="flex flex-col gap-4 ">
-                  <h1 className="font-bold leading-[140%] text-[24px] text-center">
+                  <h1 className="font-bold leading-[140%] text-xl md:text-[24px] text-center">
                     Join Us for Innovative Learning Experiences and Networking
                     Opportunities
                   </h1>
@@ -837,7 +836,7 @@ const HomePage = () => {
               <div className="border rounded-2xl flex justify-center items-center w-28">
                 <p className="px-2 ">Integrity</p>
               </div>
-              <p className="font-bold text-[48px] leading-[120%] py-1 ">
+              <p className="font-bold text-3xl md:text-[48px] leading-[120%] py-1 ">
                 Our Commitment to Research Excellence
               </p>
               <p className="text-[18px] leading-[120%] py-1 ">
@@ -847,21 +846,31 @@ const HomePage = () => {
               </p>
               <div className="flex flex-row gap-4">
                 <div className="flex-1 py-2 ">
-                  <p className="font-bold text-[20px] leading-[140%] py-1">Collaboration</p>
+                  <p className="font-bold text-[20px] leading-[140%] py-1">
+                    Collaboration
+                  </p>
                   <p className=" text-[16px] leading-[150%] py-1">
                     Working together enhances creativity and leads to
                     groundbreaking discoveries.
                   </p>
                 </div>
                 <div className="flex-1 py-2">
-                  <p className="font-bold text-[20px] leading-[140%] py-1">Innovation</p>
+                  <p className="font-bold text-[20px] leading-[140%] py-1">
+                    Innovation
+                  </p>
                   <p className=" text-[16px] leading-[150%] py-1">
-                    We encourage new ideas that challenge the status quo and drive progress.
+                    We encourage new ideas that challenge the status quo and
+                    drive progress.
                   </p>
                 </div>
               </div>
               <div className="py-8">
-                <Button variant="outline" className="border-2 border-black rounded-none px-8 hover:bg-blue-500 hover:cursor-pointer">Join</Button>
+                <Button
+                  variant="outline"
+                  className="border-2 border-black rounded-none px-8 hover:bg-blue-500 hover:cursor-pointer"
+                >
+                  Join
+                </Button>
               </div>
             </div>
             <div className="flex-1">
