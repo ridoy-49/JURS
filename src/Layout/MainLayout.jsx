@@ -5,9 +5,9 @@ import Footer from "../components/Footer.jsx";
 
 const MainLayout = () => {
   return (
-    <div>
+    <div className="max-w-[1600px]  mx-auto ">
       <Navbar />
-      <div>
+      <div  >
         <Outlet />
       </div>
       <Footer/>

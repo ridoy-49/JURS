@@ -35,21 +35,21 @@ const Footer = () => {
               <p className="text-[16px] leading-[150%] font-semibold py-4">
                 Resources Section
               </p>
-              <p className="text-[14px] leading-[150%] py-2">Blog Posts</p>
-              <p className="text-[14px] leading-[150%] py-2">FAQs</p>
-              <p className="text-[14px] leading-[150%] py-2">Case Studies</p>
-              <p className="text-[14px] leading-[150%] py-2">Support Center</p>
-              <p className="text-[14px] leading-[150%] py-2">Contact Us</p>
+              <p className="text-[14px] leading-[150%] py-2 cursor-pointer">Blog Posts</p>
+              <p className="text-[14px] leading-[150%] py-2 cursor-pointer">FAQs</p>
+              <p className="text-[14px] leading-[150%] py-2 cursor-pointer">Case Studies</p>
+              <p className="text-[14px] leading-[150%] py-2 cursor-pointer">Support Center</p>
+              <p className="text-[14px] leading-[150%] py-2 cursor-pointer">Contact Us</p>
             </div>
             <div className="py-3 md:py-0">
               <p className="text-[16px] leading-[150%] font-semibold py-4">
                 Connect With Us
               </p>
-              <p className="text-[14px] leading-[150%] py-2">Webinars</p>
-              <p className="text-[14px] leading-[150%] py-2">Newsletters</p>
-              <p className="text-[14px] leading-[150%] py-2">Community</p>
-              <p className="text-[14px] leading-[150%] py-2">Events</p>
-              <p className="text-[14px] leading-[150%] py-2">Partnerships</p>
+              <p className="text-[14px] leading-[150%] py-2 cursor-pointer">Webinars</p>
+              <p className="text-[14px] leading-[150%] py-2 cursor-pointer">Newsletters</p>
+              <p className="text-[14px] leading-[150%] py-2 cursor-pointer">Community</p>
+              <p className="text-[14px] leading-[150%] py-2 cursor-pointer">Events</p>
+              <p className="text-[14px] leading-[150%] py-2 cursor-pointer">Partnerships</p>
             </div>
             <div className="py-3 md:py-0">
               <div>

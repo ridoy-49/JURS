@@ -43,7 +43,7 @@ const HomePage = () => {
                 mentorship, and a platform to share their findings with the
                 world.
               </p>
-              <Button className="mt-3 bg-white rounded-none text-black hover:cursor-pointer md:hover:border-2 hover:border-2 hover:border-blue-500 hover:bg-white border-black border-2 md:border-0">
+              <button className="mt-3 flex px-2 py-1 bg-white rounded-none text-black   hover:border-blue-500 hover:text-blue-500 hover:border-2 cursor-pointer border-2 border-black">
                 Explore
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ const HomePage = () => {
                 >
                   <path d="M9.70697 16.9496L15.414 11.2426L9.70697 5.53564L8.29297 6.94964L12.586 11.2426L8.29297 15.5356L9.70697 16.9496Z" />
                 </svg>
-              </Button>
+              </button>
             </div>
           </div>
         </div>
@@ -232,8 +232,8 @@ const HomePage = () => {
                 <button
                   className={`px-3 py-2  ${
                     faculty === "View all"
-                      ? "bg-blue-600 text-white"
-                      : "border-2 border-black"
+                      ? "bg-blue-600 text-white border-2 border-black"
+                      : "border-2 border-black cursor-pointer"
                   }`}
                   onClick={() => setFaculty("View all")}
                 >
@@ -242,8 +242,8 @@ const HomePage = () => {
                 <button
                   className={`px-3 py-2  ${
                     faculty === "Science"
-                      ? "bg-blue-600 text-white"
-                      : "border-2 border-black"
+                      ?"bg-blue-600 text-white border-2 border-black"
+                      : "border-2 border-black cursor-pointer"
                   }`}
                   onClick={() => setFaculty("Science")}
                 >
@@ -252,8 +252,8 @@ const HomePage = () => {
                 <button
                   className={`px-3 py-2  ${
                     faculty === "Arts"
-                      ? "bg-blue-600 text-white"
-                      : "border-2 border-black"
+                      ?"bg-blue-600 text-white border-2 border-black"
+                      : "border-2 border-black cursor-pointer"
                   }`}
                   onClick={() => setFaculty("Arts")}
                 >
@@ -262,8 +262,8 @@ const HomePage = () => {
                 <button
                   className={`px-3 py-2  ${
                     faculty === "BBA"
-                      ? "bg-blue-500 text-white"
-                      : "border-2 border-black"
+                      ? "bg-blue-600 text-white border-2 border-black"
+                      : "border-2 border-black cursor-pointer"
                   }`}
                   onClick={() => setFaculty("BBA")}
                 >
@@ -408,7 +408,7 @@ const HomePage = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3  gap-y-18 gap-x-16 ">
               <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src={profileImg} className="w-80 h-auto rounded-b-full" />
+                <img src={profileImg} className="w-20 h-auto rounded-b-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
@@ -452,7 +452,7 @@ const HomePage = () => {
                 </div>
               </div>
               <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src={profileImg} className="w-80 h-auto rounded-b-full" />
+                <img src={profileImg} className="w-20 h-auto rounded-b-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
@@ -496,7 +496,7 @@ const HomePage = () => {
                 </div>
               </div>
               <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src={profileImg} className="w-80 h-auto rounded-b-full" />
+                <img src={profileImg} className="w-20 h-auto rounded-b-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
@@ -540,7 +540,7 @@ const HomePage = () => {
                 </div>
               </div>
               <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src={profileImg} className="w-80 h-auto rounded-b-full" />
+                <img src={profileImg} className="w-20 h-auto rounded-b-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
@@ -584,7 +584,7 @@ const HomePage = () => {
                 </div>
               </div>
               <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src={profileImg} className="w-80 h-auto rounded-b-full" />
+                <img src={profileImg} className="w-20 h-auto rounded-b-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
@@ -628,7 +628,7 @@ const HomePage = () => {
                 </div>
               </div>
               <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src={profileImg} className="w-80 h-auto rounded-b-full" />
+                <img src={profileImg} className="w-20 h-auto rounded-b-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
@@ -836,9 +836,9 @@ const HomePage = () => {
               <div className="border rounded-2xl flex justify-center items-center w-28">
                 <p className="px-2 ">Integrity</p>
               </div>
-              <p className="font-bold text-3xl md:text-[48px] leading-[120%] py-1 ">
+              <h2 className="font-bold text-xl md:text-[24px] leading-[120%] py-1 ">
                 Our Commitment to Research Excellence
-              </p>
+              </h2>
               <p className="text-[18px] leading-[120%] py-1 ">
                 At our research club, we prioritize integrity, collaboration,
                 and innovation. These core values guide our mission to foster an
