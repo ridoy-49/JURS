@@ -712,16 +712,16 @@ const HomePage = () => {
                   resources, mentorship, and a platform to share their findings
                   with the world.
                 </p>
-                <Button className="mt-3 bg-white rounded-none text-black hover:cursor-pointer md:hover:border-2 hover:border-2 hover:border-blue-500 hover:bg-white border-black border-2 md:border-0">
-                  Explore
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-6 h-6 fill-current text-blue-500 "
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M9.70697 16.9496L15.414 11.2426L9.70697 5.53564L8.29297 6.94964L12.586 11.2426L8.29297 15.5356L9.70697 16.9496Z" />
-                  </svg>
-                </Button>
+                <button className="mt-3 flex px-2 py-1 bg-white rounded-none text-black   hover:border-blue-500 hover:text-blue-500 hover:border-2 cursor-pointer border-2 border-black">
+                Explore
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-6 h-6 fill-current text-blue-500 "
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M9.70697 16.9496L15.414 11.2426L9.70697 5.53564L8.29297 6.94964L12.586 11.2426L8.29297 15.5356L9.70697 16.9496Z" />
+                </svg>
+              </button>
               </div>
             </div>
           </div>
