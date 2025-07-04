@@ -40,9 +40,15 @@ const HeroSection = () => {
               </p>
             </div>
             <div className="flex-1 gap-2 p-4 flex justify-start md:justify-center  ">
-              <Button className="rounded-none h-[48px] w-[144px] hover:cursor-pointer text-black bg-white py-4 px-8 hover:bg-blue-400 border-[1px] ">
-                Register Now
-              </Button>
+              <a
+                href="https://www.facebook.com/researchsociety.ju"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="rounded-none h-[48px] w-[144px] hover:cursor-pointer text-black bg-white py-4 px-8 hover:bg-blue-400 border-[1px] ">
+                  Register Now
+                </Button>
+              </a>
             </div>
           </div>
         </div>

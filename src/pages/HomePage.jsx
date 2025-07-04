@@ -57,13 +57,16 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="bg-gray-100 py-2 w-full">
+        <div className="bg-gray-100 py-2 w-full mb-10 md:mb-1">
           <h2 className=" text-center poppins-semibold md:text-[56px] text-[40px] leading-[120%] p-6">
             Up coming <span className="text-[#1976BB]">Events</span>
           </h2>
           <div className="flex flex-col md:flex-row">
             <div className="flex-1 flex mr-0">
-              <img src={sideheroimg} className="w-screen h-auto" />
+              <img
+                src="upcoming events summit2025.jpg"
+                className="w-screen h-auto"
+              />
             </div>
             <div className="flex-1 px-4 flex flex-col justify-start items-start">
               <span className="flex flex-row border-2 border-black px-4 py-2 my-6 rounded-3xl">
@@ -75,21 +78,23 @@ const HomePage = () => {
                   <path d="M7 11H9V13H7V11ZM7 15H9V17H7V15ZM11 11H13V13H11V11ZM11 15H13V17H11V15ZM15 11H17V13H15V11ZM15 15H17V17H15V15Z" />
                   <path d="M5 22H19C20.103 22 21 21.103 21 20V6C21 4.897 20.103 4 19 4H17V2H15V4H9V2H7V4H5C3.897 4 3 4.897 3 6V20C3 21.103 3.897 22 5 22ZM19 8L19.001 20H5V8H19Z" />
                 </svg>
-                <span className="poppins-semibold text-[16px] leading-[150%] ml-2">
+                <span className="poppins-bold text-[16px] leading-[150%] ml-2">
                   21 February, 2025
                 </span>
               </span>
               <h2 className="md:text-[56px] text-3xl leading-[120%] poppins-semibold py-4">
-                Heavy metal in river sediments
+                Step Into the World of Research — Join the JURS Research Summit
+                2025
               </h2>
               <p className="text-[18px] leading-[150%] py-4 poppins-extralight">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique. Duis
-                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
-                commodo diam libero vitae erat. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Suspendisse varius enim in eros
-                elementum tristique. Duis cursus, mi quis viverra ornare, eros
-                dolor interdum nulla, ut commodo diam libero vitae erat.
+                Organized by Jahangirnagar University Research Society (JURS)
+                Are you an undergraduate student with a curious mind and a
+                passion for discovery? Do you want to present your ideas,
+                connect with researchers, and grow academically? Then this is
+                your platform! Join us at the 1st JURS Research Summit 2025, a
+                full-day academic celebration designed to encourage young
+                researchers, showcase fresh ideas, and build a strong research
+                community
               </p>
               <p className="flex flex-row py-6">
                 <svg
@@ -100,11 +105,17 @@ const HomePage = () => {
                   <path d="M12.0001 14C14.2061 14 16.0001 12.206 16.0001 10C16.0001 7.794 14.2061 6 12.0001 6C9.79406 6 8.00006 7.794 8.00006 10C8.00006 12.206 9.79406 14 12.0001 14ZM12.0001 8C13.1031 8 14.0001 8.897 14.0001 10C14.0001 11.103 13.1031 12 12.0001 12C10.8971 12 10.0001 11.103 10.0001 10C10.0001 8.897 10.8971 8 12.0001 8Z" />
                   <path d="M11.4201 21.814C11.5893 21.9349 11.7921 21.9998 12.0001 21.9998C12.2081 21.9998 12.4108 21.9349 12.5801 21.814C12.8841 21.599 20.0291 16.44 20.0001 10C20.0001 5.589 16.4111 2 12.0001 2C7.58909 2 4.00009 5.589 4.00009 9.995C3.97109 16.44 11.1161 21.599 11.4201 21.814ZM12.0001 4C15.3091 4 18.0001 6.691 18.0001 10.005C18.0211 14.443 13.6121 18.428 12.0001 19.735C10.3891 18.427 5.97909 14.441 6.00009 10C6.00009 6.691 8.69109 4 12.0001 4Z" />
                 </svg>
-                <span className="ml-2">Location: TSC, JU</span>
+                <span className="ml-2 poppins-semibold">Location: Jahir Rayhan Auditorium, Jahngirnagar University</span>
               </p>
-              <Button className="w-[144px] h-[48px] border border-gray-300 px-6 py-3 rounded-none my-4 hover:bg-blue-500 hover:cursor-pointer">
-                Register Now
-              </Button>
+              <a
+                href="https://www.facebook.com/researchsociety.ju/posts/pfbid0VG516ScRdLfEcaJ2Xr1DNJv6UbKPNAmWhgjbkxtygnXU6RUfeFXDXGrNT1sAMA5dl"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="w-[144px] h-[48px] border border-gray-300 px-6 py-3 rounded-none my-4 hover:bg-blue-500 hover:cursor-pointer">
+                  Register Now
+                </Button>
+              </a>
             </div>
           </div>
         </div>
@@ -215,7 +226,7 @@ const HomePage = () => {
           </div>
 
           {/* no.2 div */}
-          <div className="py-3 md:py-5 flex flex-col justify-start items-start">
+          <div id="event-calender" className="py-3 md:py-5 flex flex-col justify-start items-start">
             <div className="my-3">
               <span className="px-3 border border-[#232323] rounded-2xl">
                 Future
@@ -242,7 +253,7 @@ const HomePage = () => {
                 <button
                   className={`px-3 py-2  ${
                     faculty === "Science"
-                      ?"bg-blue-600 text-white border-2 border-black"
+                      ? "bg-blue-600 text-white border-2 border-black"
                       : "border-2 border-black cursor-pointer"
                   }`}
                   onClick={() => setFaculty("Science")}
@@ -252,7 +263,7 @@ const HomePage = () => {
                 <button
                   className={`px-3 py-2  ${
                     faculty === "Arts"
-                      ?"bg-blue-600 text-white border-2 border-black"
+                      ? "bg-blue-600 text-white border-2 border-black"
                       : "border-2 border-black cursor-pointer"
                   }`}
                   onClick={() => setFaculty("Arts")}
@@ -392,7 +403,7 @@ const HomePage = () => {
             </div>
           </div>
           {/*profile div */}
-          <div className="flex flex-col items-center md:py-28 md:gap-20 gap-16 py-16">
+          <div id="about" className="flex flex-col items-center md:py-28 md:gap-20 gap-16 py-16">
             <div className="flex flex-col gap-4">
               <p className="text-center font-semibold text-[16px] leading-[150%]">
                 Meet
@@ -713,15 +724,15 @@ const HomePage = () => {
                   with the world.
                 </p>
                 <button className="mt-3 flex px-2 py-1 bg-white rounded-none text-black   hover:border-blue-500 hover:text-blue-500 hover:border-2 cursor-pointer border-2 border-black">
-                Explore
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="w-6 h-6 fill-current text-blue-500 "
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M9.70697 16.9496L15.414 11.2426L9.70697 5.53564L8.29297 6.94964L12.586 11.2426L8.29297 15.5356L9.70697 16.9496Z" />
-                </svg>
-              </button>
+                  Explore
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-6 h-6 fill-current text-blue-500 "
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M9.70697 16.9496L15.414 11.2426L9.70697 5.53564L8.29297 6.94964L12.586 11.2426L8.29297 15.5356L9.70697 16.9496Z" />
+                  </svg>
+                </button>
               </div>
             </div>
           </div>
