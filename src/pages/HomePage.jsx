@@ -87,7 +87,7 @@ const HomePage = () => {
                 2025
               </h2>
               <p className="text-[18px] leading-[150%] py-4 poppins-extralight">
-                Organized by Jahangirnagar University Research Society (JURS)
+                Organized by Jahangirnagar University Research Society (JURS).
                 Are you an undergraduate student with a curious mind and a
                 passion for discovery? Do you want to present your ideas,
                 connect with researchers, and grow academically? Then this is
@@ -306,19 +306,18 @@ const HomePage = () => {
           <div className="flex flex-col items-center md:gap-20 gap-6">
             <div className="flex max-w-[767px]">
               <h1 className=" text-3xl md:text-[40px] font-bold leading-[120%] text-center">
-                Explore Our Engaging Workshops and Enhance Your Research Skills
+                Explore Our Engaging Project and Enhance Your Research Skills
               </h1>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 py-2 gap-8">
               <div className="flex flex-col  pb-6 gap-8 hover:cursor-pointer">
                 <img
-                  src={cartimg}
+                  src="Project Obisity .jpg"
                   className="h-[240px] w-screen rounded-t-2xl "
                 />
                 <div className="flex flex-col gap-4 ">
                   <h1 className="font-bold leading-[140%] text-xl md:text-[24px] text-center">
-                    Join Us for Innovative Learning Experiences and Networking
-                    Opportunities
+                    Project Obisity
                   </h1>
                   <p className="text-[16px] text-center leading-[150%]">
                     Our workshops are designed to empower students with hands-on
@@ -342,13 +341,12 @@ const HomePage = () => {
               </div>
               <div className="flex flex-col  pb-6 gap-8 hover:cursor-pointer">
                 <img
-                  src={cartimg}
+                  src="Project CVS.jpg"
                   className="h-[240px] w-screen rounded-t-2xl "
                 />
                 <div className="flex flex-col gap-4 ">
                   <h1 className="font-bold leading-[140%] text-xl md:text-[24px] text-center">
-                    Join Us for Innovative Learning Experiences and Networking
-                    Opportunities
+                    Project CVS Among Child
                   </h1>
                   <p className="text-[16px] text-center leading-[150%]">
                     Our workshops are designed to empower students with hands-on
@@ -372,13 +370,12 @@ const HomePage = () => {
               </div>
               <div className="flex flex-col  pb-6 gap-8 hover:cursor-pointer">
                 <img
-                  src={cartimg}
+                  src="Project Kap-study.jpg"
                   className="h-[240px] w-screen rounded-t-2xl "
                 />
                 <div className="flex flex-col gap-4 ">
                   <h1 className="font-bold leading-[140%] text-xl md:text-[24px] text-center">
-                    Join Us for Innovative Learning Experiences and Networking
-                    Opportunities
+                    Project Obesity HPV & Servical Cancer
                   </h1>
                   <p className="text-[16px] text-center leading-[150%]">
                     Our workshops are designed to empower students with hands-on
@@ -418,15 +415,15 @@ const HomePage = () => {
               </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3  gap-y-18 gap-x-16 ">
-              <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src={profileImg} className="w-20 h-auto rounded-b-full" />
+              <div onClick={()=>window.open("https://www.facebook.com/alamin.bijoyy", "_blank")} className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
+                <img src="Al Amin Bijoy - President.HEIC" className="w-20 h-auto rounded-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
-                      Alice Johnson
+                      Al Amin Bijoy
                     </p>
                     <p className="text-center font-light text-[14px] leading-[150%]">
-                      Project Lead
+                      President
                     </p>
                     <p className="text-center text-[16px] leading-[150%] my-4">
                       Passionate about guiding research initiatives and
@@ -435,7 +432,7 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="flex flex-row gap-[14px]">
-                  <svg
+                  <svg onClick={(e)=>{e.stopPropagation()}}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -446,14 +443,14 @@ const HomePage = () => {
                       d="M4.5 3.24268C3.67157 3.24268 3 3.91425 3 4.74268V19.7427C3 20.5711 3.67157 21.2427 4.5 21.2427H19.5C20.3284 21.2427 21 20.5711 21 19.7427V4.74268C21 3.91425 20.3284 3.24268 19.5 3.24268H4.5ZM8.52076 7.2454C8.52639 8.20165 7.81061 8.79087 6.96123 8.78665C6.16107 8.78243 5.46357 8.1454 5.46779 7.24681C5.47201 6.40165 6.13998 5.72243 7.00764 5.74212C7.88795 5.76181 8.52639 6.40728 8.52076 7.2454ZM12.2797 10.0044H9.75971H9.7583V18.5643H12.4217V18.3646C12.4217 17.9847 12.4214 17.6047 12.4211 17.2246C12.4203 16.2108 12.4194 15.1959 12.4246 14.1824C12.426 13.9363 12.4372 13.6804 12.5005 13.4455C12.7381 12.568 13.5271 12.0013 14.4074 12.1406C14.9727 12.2291 15.3467 12.5568 15.5042 13.0898C15.6013 13.423 15.6449 13.7816 15.6491 14.129C15.6605 15.1766 15.6589 16.2242 15.6573 17.2719C15.6567 17.6417 15.6561 18.0117 15.6561 18.3815V18.5629H18.328V18.3576C18.328 17.9056 18.3278 17.4537 18.3275 17.0018C18.327 15.8723 18.3264 14.7428 18.3294 13.6129C18.3308 13.1024 18.276 12.599 18.1508 12.1054C17.9638 11.3713 17.5771 10.7638 16.9485 10.3251C16.5027 10.0129 16.0133 9.81178 15.4663 9.78928C15.404 9.78669 15.3412 9.7833 15.2781 9.77989C14.9984 9.76477 14.7141 9.74941 14.4467 9.80334C13.6817 9.95662 13.0096 10.3068 12.5019 10.9241C12.4429 10.9949 12.3852 11.0668 12.2991 11.1741L12.2797 11.1984V10.0044ZM5.68164 18.5671H8.33242V10.01H5.68164V18.5671Z"
                     />
                   </svg>
-                  <svg
+                  <svg onClick={(e)=>{e.stopPropagation()}}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
                   >
                     <path d="M17.1761 4.24268H19.9362L13.9061 11.0201L21 20.2427H15.4456L11.0951 14.6493L6.11723 20.2427H3.35544L9.80517 12.9935L3 4.24268H8.69545L12.6279 9.3553L17.1761 4.24268ZM16.2073 18.6181H17.7368L7.86441 5.78196H6.2232L16.2073 18.6181Z" />
                   </svg>
-                  <svg
+                  <svg onClick={(e)=>{e.stopPropagation()}}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -462,15 +459,15 @@ const HomePage = () => {
                   </svg>
                 </div>
               </div>
-              <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src={profileImg} className="w-20 h-auto rounded-b-full" />
+              <div onClick={()=>window.open("https://www.facebook.com/h.h.emon.14", "_blank")} className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
+                <img src="Hasibul Hassain Emon Secretary.png" className="w-20 h-auto rounded-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
-                      Alice Johnson
+                      Hasibul Hasan Emon
                     </p>
                     <p className="text-center font-light text-[14px] leading-[150%]">
-                      Project Lead
+                      Secretary
                     </p>
                     <p className="text-center text-[16px] leading-[150%] my-4">
                       Passionate about guiding research initiatives and
@@ -479,7 +476,7 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="flex flex-row gap-[14px]">
-                  <svg
+                  <svg onClick={(e)=>{e.stopPropagation()}}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -490,14 +487,14 @@ const HomePage = () => {
                       d="M4.5 3.24268C3.67157 3.24268 3 3.91425 3 4.74268V19.7427C3 20.5711 3.67157 21.2427 4.5 21.2427H19.5C20.3284 21.2427 21 20.5711 21 19.7427V4.74268C21 3.91425 20.3284 3.24268 19.5 3.24268H4.5ZM8.52076 7.2454C8.52639 8.20165 7.81061 8.79087 6.96123 8.78665C6.16107 8.78243 5.46357 8.1454 5.46779 7.24681C5.47201 6.40165 6.13998 5.72243 7.00764 5.74212C7.88795 5.76181 8.52639 6.40728 8.52076 7.2454ZM12.2797 10.0044H9.75971H9.7583V18.5643H12.4217V18.3646C12.4217 17.9847 12.4214 17.6047 12.4211 17.2246C12.4203 16.2108 12.4194 15.1959 12.4246 14.1824C12.426 13.9363 12.4372 13.6804 12.5005 13.4455C12.7381 12.568 13.5271 12.0013 14.4074 12.1406C14.9727 12.2291 15.3467 12.5568 15.5042 13.0898C15.6013 13.423 15.6449 13.7816 15.6491 14.129C15.6605 15.1766 15.6589 16.2242 15.6573 17.2719C15.6567 17.6417 15.6561 18.0117 15.6561 18.3815V18.5629H18.328V18.3576C18.328 17.9056 18.3278 17.4537 18.3275 17.0018C18.327 15.8723 18.3264 14.7428 18.3294 13.6129C18.3308 13.1024 18.276 12.599 18.1508 12.1054C17.9638 11.3713 17.5771 10.7638 16.9485 10.3251C16.5027 10.0129 16.0133 9.81178 15.4663 9.78928C15.404 9.78669 15.3412 9.7833 15.2781 9.77989C14.9984 9.76477 14.7141 9.74941 14.4467 9.80334C13.6817 9.95662 13.0096 10.3068 12.5019 10.9241C12.4429 10.9949 12.3852 11.0668 12.2991 11.1741L12.2797 11.1984V10.0044ZM5.68164 18.5671H8.33242V10.01H5.68164V18.5671Z"
                     />
                   </svg>
-                  <svg
+                  <svg onClick={(e)=>{e.stopPropagation()}}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
                   >
                     <path d="M17.1761 4.24268H19.9362L13.9061 11.0201L21 20.2427H15.4456L11.0951 14.6493L6.11723 20.2427H3.35544L9.80517 12.9935L3 4.24268H8.69545L12.6279 9.3553L17.1761 4.24268ZM16.2073 18.6181H17.7368L7.86441 5.78196H6.2232L16.2073 18.6181Z" />
                   </svg>
-                  <svg
+                  <svg onClick={(e)=>{e.stopPropagation()}}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -506,15 +503,15 @@ const HomePage = () => {
                   </svg>
                 </div>
               </div>
-              <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src={profileImg} className="w-20 h-auto rounded-b-full" />
+              <div onClick={()=>window.open("https://www.facebook.com/moinur.rahman.142455", "_blank")} className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
+                <img src="Moinur Rahman VP.jpg" className="w-20 h-auto rounded-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
-                      Alice Johnson
+                      Moinur Rahman
                     </p>
                     <p className="text-center font-light text-[14px] leading-[150%]">
-                      Project Lead
+                      Vice President
                     </p>
                     <p className="text-center text-[16px] leading-[150%] my-4">
                       Passionate about guiding research initiatives and
@@ -523,7 +520,7 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="flex flex-row gap-[14px]">
-                  <svg
+                  <svg onClick={(e)=>{e.stopPropagation()}}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -534,14 +531,14 @@ const HomePage = () => {
                       d="M4.5 3.24268C3.67157 3.24268 3 3.91425 3 4.74268V19.7427C3 20.5711 3.67157 21.2427 4.5 21.2427H19.5C20.3284 21.2427 21 20.5711 21 19.7427V4.74268C21 3.91425 20.3284 3.24268 19.5 3.24268H4.5ZM8.52076 7.2454C8.52639 8.20165 7.81061 8.79087 6.96123 8.78665C6.16107 8.78243 5.46357 8.1454 5.46779 7.24681C5.47201 6.40165 6.13998 5.72243 7.00764 5.74212C7.88795 5.76181 8.52639 6.40728 8.52076 7.2454ZM12.2797 10.0044H9.75971H9.7583V18.5643H12.4217V18.3646C12.4217 17.9847 12.4214 17.6047 12.4211 17.2246C12.4203 16.2108 12.4194 15.1959 12.4246 14.1824C12.426 13.9363 12.4372 13.6804 12.5005 13.4455C12.7381 12.568 13.5271 12.0013 14.4074 12.1406C14.9727 12.2291 15.3467 12.5568 15.5042 13.0898C15.6013 13.423 15.6449 13.7816 15.6491 14.129C15.6605 15.1766 15.6589 16.2242 15.6573 17.2719C15.6567 17.6417 15.6561 18.0117 15.6561 18.3815V18.5629H18.328V18.3576C18.328 17.9056 18.3278 17.4537 18.3275 17.0018C18.327 15.8723 18.3264 14.7428 18.3294 13.6129C18.3308 13.1024 18.276 12.599 18.1508 12.1054C17.9638 11.3713 17.5771 10.7638 16.9485 10.3251C16.5027 10.0129 16.0133 9.81178 15.4663 9.78928C15.404 9.78669 15.3412 9.7833 15.2781 9.77989C14.9984 9.76477 14.7141 9.74941 14.4467 9.80334C13.6817 9.95662 13.0096 10.3068 12.5019 10.9241C12.4429 10.9949 12.3852 11.0668 12.2991 11.1741L12.2797 11.1984V10.0044ZM5.68164 18.5671H8.33242V10.01H5.68164V18.5671Z"
                     />
                   </svg>
-                  <svg
+                  <svg onClick={(e)=>{e.stopPropagation()}}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
                   >
                     <path d="M17.1761 4.24268H19.9362L13.9061 11.0201L21 20.2427H15.4456L11.0951 14.6493L6.11723 20.2427H3.35544L9.80517 12.9935L3 4.24268H8.69545L12.6279 9.3553L17.1761 4.24268ZM16.2073 18.6181H17.7368L7.86441 5.78196H6.2232L16.2073 18.6181Z" />
                   </svg>
-                  <svg
+                  <svg onClick={(e)=>{e.stopPropagation()}}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -550,15 +547,15 @@ const HomePage = () => {
                   </svg>
                 </div>
               </div>
-              <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src={profileImg} className="w-20 h-auto rounded-b-full" />
+              <div onClick={()=>window.open("https://www.facebook.com/fatimaakter.bithi.3", "_blank")} className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
+                <img src="Bithi VP.HEIC" className="w-20 h-auto rounded-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
-                      Alice Johnson
+                      Fatema Akter Bithi
                     </p>
                     <p className="text-center font-light text-[14px] leading-[150%]">
-                      Project Lead
+                      Vice President
                     </p>
                     <p className="text-center text-[16px] leading-[150%] my-4">
                       Passionate about guiding research initiatives and
@@ -567,7 +564,7 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="flex flex-row gap-[14px]">
-                  <svg
+                  <svg onClick={(e)=>{e.stopPropagation()}}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -578,14 +575,14 @@ const HomePage = () => {
                       d="M4.5 3.24268C3.67157 3.24268 3 3.91425 3 4.74268V19.7427C3 20.5711 3.67157 21.2427 4.5 21.2427H19.5C20.3284 21.2427 21 20.5711 21 19.7427V4.74268C21 3.91425 20.3284 3.24268 19.5 3.24268H4.5ZM8.52076 7.2454C8.52639 8.20165 7.81061 8.79087 6.96123 8.78665C6.16107 8.78243 5.46357 8.1454 5.46779 7.24681C5.47201 6.40165 6.13998 5.72243 7.00764 5.74212C7.88795 5.76181 8.52639 6.40728 8.52076 7.2454ZM12.2797 10.0044H9.75971H9.7583V18.5643H12.4217V18.3646C12.4217 17.9847 12.4214 17.6047 12.4211 17.2246C12.4203 16.2108 12.4194 15.1959 12.4246 14.1824C12.426 13.9363 12.4372 13.6804 12.5005 13.4455C12.7381 12.568 13.5271 12.0013 14.4074 12.1406C14.9727 12.2291 15.3467 12.5568 15.5042 13.0898C15.6013 13.423 15.6449 13.7816 15.6491 14.129C15.6605 15.1766 15.6589 16.2242 15.6573 17.2719C15.6567 17.6417 15.6561 18.0117 15.6561 18.3815V18.5629H18.328V18.3576C18.328 17.9056 18.3278 17.4537 18.3275 17.0018C18.327 15.8723 18.3264 14.7428 18.3294 13.6129C18.3308 13.1024 18.276 12.599 18.1508 12.1054C17.9638 11.3713 17.5771 10.7638 16.9485 10.3251C16.5027 10.0129 16.0133 9.81178 15.4663 9.78928C15.404 9.78669 15.3412 9.7833 15.2781 9.77989C14.9984 9.76477 14.7141 9.74941 14.4467 9.80334C13.6817 9.95662 13.0096 10.3068 12.5019 10.9241C12.4429 10.9949 12.3852 11.0668 12.2991 11.1741L12.2797 11.1984V10.0044ZM5.68164 18.5671H8.33242V10.01H5.68164V18.5671Z"
                     />
                   </svg>
-                  <svg
+                  <svg onClick={(e)=>{e.stopPropagation()}}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
                   >
                     <path d="M17.1761 4.24268H19.9362L13.9061 11.0201L21 20.2427H15.4456L11.0951 14.6493L6.11723 20.2427H3.35544L9.80517 12.9935L3 4.24268H8.69545L12.6279 9.3553L17.1761 4.24268ZM16.2073 18.6181H17.7368L7.86441 5.78196H6.2232L16.2073 18.6181Z" />
                   </svg>
-                  <svg
+                  <svg onClick={(e)=>{e.stopPropagation()}}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -594,15 +591,15 @@ const HomePage = () => {
                   </svg>
                 </div>
               </div>
-              <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src={profileImg} className="w-20 h-auto rounded-b-full" />
+              <div onClick={()=>window.open("https://www.facebook.com/abu.rumman.85110", "_blank")} className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
+                <img src="Rumman JS.jpg" className="w-20 h-auto rounded-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
-                      Alice Johnson
+                      Abu Rumman
                     </p>
                     <p className="text-center font-light text-[14px] leading-[150%]">
-                      Project Lead
+                      Joint Secretary
                     </p>
                     <p className="text-center text-[16px] leading-[150%] my-4">
                       Passionate about guiding research initiatives and
@@ -611,7 +608,7 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="flex flex-row gap-[14px]">
-                  <svg
+                  <svg  onClick={(e)=>{e.stopPropagation()}}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -622,14 +619,14 @@ const HomePage = () => {
                       d="M4.5 3.24268C3.67157 3.24268 3 3.91425 3 4.74268V19.7427C3 20.5711 3.67157 21.2427 4.5 21.2427H19.5C20.3284 21.2427 21 20.5711 21 19.7427V4.74268C21 3.91425 20.3284 3.24268 19.5 3.24268H4.5ZM8.52076 7.2454C8.52639 8.20165 7.81061 8.79087 6.96123 8.78665C6.16107 8.78243 5.46357 8.1454 5.46779 7.24681C5.47201 6.40165 6.13998 5.72243 7.00764 5.74212C7.88795 5.76181 8.52639 6.40728 8.52076 7.2454ZM12.2797 10.0044H9.75971H9.7583V18.5643H12.4217V18.3646C12.4217 17.9847 12.4214 17.6047 12.4211 17.2246C12.4203 16.2108 12.4194 15.1959 12.4246 14.1824C12.426 13.9363 12.4372 13.6804 12.5005 13.4455C12.7381 12.568 13.5271 12.0013 14.4074 12.1406C14.9727 12.2291 15.3467 12.5568 15.5042 13.0898C15.6013 13.423 15.6449 13.7816 15.6491 14.129C15.6605 15.1766 15.6589 16.2242 15.6573 17.2719C15.6567 17.6417 15.6561 18.0117 15.6561 18.3815V18.5629H18.328V18.3576C18.328 17.9056 18.3278 17.4537 18.3275 17.0018C18.327 15.8723 18.3264 14.7428 18.3294 13.6129C18.3308 13.1024 18.276 12.599 18.1508 12.1054C17.9638 11.3713 17.5771 10.7638 16.9485 10.3251C16.5027 10.0129 16.0133 9.81178 15.4663 9.78928C15.404 9.78669 15.3412 9.7833 15.2781 9.77989C14.9984 9.76477 14.7141 9.74941 14.4467 9.80334C13.6817 9.95662 13.0096 10.3068 12.5019 10.9241C12.4429 10.9949 12.3852 11.0668 12.2991 11.1741L12.2797 11.1984V10.0044ZM5.68164 18.5671H8.33242V10.01H5.68164V18.5671Z"
                     />
                   </svg>
-                  <svg
+                  <svg onClick={(e)=>{e.stopPropagation()}}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
                   >
                     <path d="M17.1761 4.24268H19.9362L13.9061 11.0201L21 20.2427H15.4456L11.0951 14.6493L6.11723 20.2427H3.35544L9.80517 12.9935L3 4.24268H8.69545L12.6279 9.3553L17.1761 4.24268ZM16.2073 18.6181H17.7368L7.86441 5.78196H6.2232L16.2073 18.6181Z" />
                   </svg>
-                  <svg
+                  <svg onClick={(e)=>{e.stopPropagation()}}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -638,15 +635,15 @@ const HomePage = () => {
                   </svg>
                 </div>
               </div>
-              <div className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src={profileImg} className="w-20 h-auto rounded-b-full" />
+              <div onClick={()=>window.open("https://www.facebook.com/Iamridoyhalder", "_blank")} className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
+                <img src="Hridoy js.jpg" className="w-20 h-auto rounded-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
-                      Alice Johnson
+                     Hriday Halder
                     </p>
                     <p className="text-center font-light text-[14px] leading-[150%]">
-                      Project Lead
+                      Joint Secretary
                     </p>
                     <p className="text-center text-[16px] leading-[150%] my-4">
                       Passionate about guiding research initiatives and
@@ -655,7 +652,7 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="flex flex-row gap-[14px]">
-                  <svg
+                  <svg onClick={(e)=>{e.stopPropagation()}}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -666,14 +663,14 @@ const HomePage = () => {
                       d="M4.5 3.24268C3.67157 3.24268 3 3.91425 3 4.74268V19.7427C3 20.5711 3.67157 21.2427 4.5 21.2427H19.5C20.3284 21.2427 21 20.5711 21 19.7427V4.74268C21 3.91425 20.3284 3.24268 19.5 3.24268H4.5ZM8.52076 7.2454C8.52639 8.20165 7.81061 8.79087 6.96123 8.78665C6.16107 8.78243 5.46357 8.1454 5.46779 7.24681C5.47201 6.40165 6.13998 5.72243 7.00764 5.74212C7.88795 5.76181 8.52639 6.40728 8.52076 7.2454ZM12.2797 10.0044H9.75971H9.7583V18.5643H12.4217V18.3646C12.4217 17.9847 12.4214 17.6047 12.4211 17.2246C12.4203 16.2108 12.4194 15.1959 12.4246 14.1824C12.426 13.9363 12.4372 13.6804 12.5005 13.4455C12.7381 12.568 13.5271 12.0013 14.4074 12.1406C14.9727 12.2291 15.3467 12.5568 15.5042 13.0898C15.6013 13.423 15.6449 13.7816 15.6491 14.129C15.6605 15.1766 15.6589 16.2242 15.6573 17.2719C15.6567 17.6417 15.6561 18.0117 15.6561 18.3815V18.5629H18.328V18.3576C18.328 17.9056 18.3278 17.4537 18.3275 17.0018C18.327 15.8723 18.3264 14.7428 18.3294 13.6129C18.3308 13.1024 18.276 12.599 18.1508 12.1054C17.9638 11.3713 17.5771 10.7638 16.9485 10.3251C16.5027 10.0129 16.0133 9.81178 15.4663 9.78928C15.404 9.78669 15.3412 9.7833 15.2781 9.77989C14.9984 9.76477 14.7141 9.74941 14.4467 9.80334C13.6817 9.95662 13.0096 10.3068 12.5019 10.9241C12.4429 10.9949 12.3852 11.0668 12.2991 11.1741L12.2797 11.1984V10.0044ZM5.68164 18.5671H8.33242V10.01H5.68164V18.5671Z"
                     />
                   </svg>
-                  <svg
+                  <svg onClick={(e)=>{e.stopPropagation()}}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
                   >
                     <path d="M17.1761 4.24268H19.9362L13.9061 11.0201L21 20.2427H15.4456L11.0951 14.6493L6.11723 20.2427H3.35544L9.80517 12.9935L3 4.24268H8.69545L12.6279 9.3553L17.1761 4.24268ZM16.2073 18.6181H17.7368L7.86441 5.78196H6.2232L16.2073 18.6181Z" />
                   </svg>
-                  <svg
+                  <svg onClick={(e)=>{e.stopPropagation(),window.open("https://www.facebook.com/Iamridoyhalder", "_blank")}}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
