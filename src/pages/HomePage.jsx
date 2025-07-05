@@ -300,7 +300,7 @@ const HomePage = () => {
             </div>
           </div>
           {/* no.3 div */}
-          <div id="research-areas" className="flex flex-col items-center md:gap-20 gap-6">
+          <div id="research-areas" className="flex flex-col items-center md:gap-20 gap-6 mt-10">
             <div className="flex max-w-[767px]">
               <h1 className=" text-3xl md:text-[40px] font-bold leading-[120%] text-center">
                 Explore Our Engaging Project and Enhance Your Research Skills
@@ -778,7 +778,7 @@ const HomePage = () => {
                 />
                 <div className="flex flex-col gap-4 ">
                   <h1 className="font-bold leading-[140%] text-xl md:text-[24px] text-center">
-                    1st Year Celebration & New Member Reception
+                    1st Year Celebration & Fresher's Reception
                   </h1>
                   <p className="text-[16px] text-center leading-[150%]">
                     Our workshops are designed to empower students with hands-on

@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className="w-full">
       {/* For medium device Navbar */}
-      <div className="w-full max-w-[1600px] h-[72px] border-b border-gray-200 px-16 mx-auto fixed bg-white  hidden md:flex items-center justify-between shadow">
+      <div className="w-full max-w-[1600px] h-[50px] border-b border-gray-200 px-16 mx-auto fixed bg-white  hidden md:flex items-center justify-between shadow">
         <div className="flex flex-row flex-1 gap-4 items-center">
           <div>
             <Link to="/">
@@ -73,7 +73,7 @@ const Navbar = () => {
       </div>
       {/* For Mobile Navbar */}
       <div className="md:hidden  w-full fixed bg-white ">
-        <div className="w-full max-w-[16000px] h-[72px] border-b border-gray-200 px-8 mx-auto flex items-center justify-between shadow">
+        <div className="w-full max-w-[16000px] h-[50px] border-b border-gray-200 px-8 mx-auto flex items-center justify-between shadow">
           <div>
             <img
               onClick={() => {
