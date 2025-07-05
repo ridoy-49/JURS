@@ -1,14 +1,11 @@
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
-import sideheroimg from "../assets/sidehero.png";
 import "../../src/App.css";
 import HeroSection from "../components/HeroSection";
 import ViewAllEvent from "../components/ViewAllEvent";
 import ScienceEvent from "../components/ScienceEvent";
 import ArtsEvent from "../components/ArtsEvent";
 import BBAEvant from "../components/BBAEvant";
-import cartimg from "../assets/cart image.jpg";
-import profileImg from "../assets/profile.png";
 import groupImg from "../assets/group img.jpg";
 import habib from "../assets/Habib.jpg";
 
@@ -303,7 +300,7 @@ const HomePage = () => {
             </div>
           </div>
           {/* no.3 div */}
-          <div className="flex flex-col items-center md:gap-20 gap-6">
+          <div id="research-areas" className="flex flex-col items-center md:gap-20 gap-6">
             <div className="flex max-w-[767px]">
               <h1 className=" text-3xl md:text-[40px] font-bold leading-[120%] text-center">
                 Explore Our Engaging Project and Enhance Your Research Skills
@@ -416,7 +413,7 @@ const HomePage = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3  gap-y-18 gap-x-16 ">
               <div onClick={()=>window.open("https://www.facebook.com/alamin.bijoyy", "_blank")} className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src="Al Amin Bijoy - President.HEIC" className="w-20 h-auto rounded-full" />
+                <img src="Bijoy president.jpg" className="w-20 h-auto rounded-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
@@ -548,7 +545,7 @@ const HomePage = () => {
                 </div>
               </div>
               <div onClick={()=>window.open("https://www.facebook.com/fatimaakter.bithi.3", "_blank")} className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src="Bithi VP.HEIC" className="w-20 h-auto rounded-full" />
+                <img src="Bithi  Vp.jpg" className="w-20 h-auto rounded-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
@@ -741,19 +738,18 @@ const HomePage = () => {
           <div className="flex flex-col items-center md:gap-20 gap-6">
             <div className="flex max-w-[767px]">
               <h1 className=" text-3xl md:text-[40px] font-bold leading-[120%] text-center">
-                Explore Our Engaging Workshops and Enhance Your Research Skills
+                Explore Our Engaging Workshops and News Coverage of Event
               </h1>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 py-2 gap-8">
-              <div className="flex flex-col  pb-6 gap-8 hover:cursor-pointer">
+              <div  onClick={()=>window.open("https://www.channelionline.com/training-workshop-of-jabi-research-council-with-more-than-two-hundred-students/", "_blank")} className="flex flex-col  pb-6 gap-8 hover:cursor-pointer">
                 <img
-                  src={cartimg}
-                  className="h-[240px] w-screen rounded-t-2xl "
+                  src="news1.jpg"
+                  className="h-auto w-screen rounded-t-2xl "
                 />
                 <div className="flex flex-col gap-4 ">
                   <h1 className="font-bold leading-[140%] text-xl md:text-[24px] text-center">
-                    Join Us for Innovative Learning Experiences and Networking
-                    Opportunities
+                    SPSS Workshop
                   </h1>
                   <p className="text-[16px] text-center leading-[150%]">
                     Our workshops are designed to empower students with hands-on
@@ -775,15 +771,14 @@ const HomePage = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex flex-col  pb-6 gap-8 hover:cursor-pointer">
+              <div onClick={()=>window.open("https://www.rupalibangladesh.com/campus/anniversary--renewal-of-research-society-held-at-jabit/14245?fbclid=IwQ0xDSwLVT6xleHRuA2FlbQIxMQABHoCD_9s3wG673VACF9qOxPiqJF03WBR-jeYUWsZLc_tqBMAhiyS1PK3kymyk_aem_JywJMNu3xy1MZDrgGtFRmw", "_blank")} className="flex flex-col  pb-6 gap-8 hover:cursor-pointer">
                 <img
-                  src={cartimg}
-                  className="h-[240px] w-screen rounded-t-2xl "
+                  src="news3.jpg"
+                  className="h-auto w-screen rounded-t-2xl "
                 />
                 <div className="flex flex-col gap-4 ">
                   <h1 className="font-bold leading-[140%] text-xl md:text-[24px] text-center">
-                    Join Us for Innovative Learning Experiences and Networking
-                    Opportunities
+                    1st Year Celebration & New Member Reception
                   </h1>
                   <p className="text-[16px] text-center leading-[150%]">
                     Our workshops are designed to empower students with hands-on
@@ -805,15 +800,14 @@ const HomePage = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex flex-col  pb-6 gap-8 hover:cursor-pointer">
+              <div onClick={()=>window.open("https://www.channelionline.com/100-students-of-du-research-society-at-jahangirnagar-university/", "_blank")} className="flex flex-col  pb-6 gap-8 hover:cursor-pointer">
                 <img
-                  src={cartimg}
-                  className="h-[240px] w-screen rounded-t-2xl "
+                  src="new2.jpg"
+                  className="h-auto w-screen rounded-t-2xl "
                 />
                 <div className="flex flex-col gap-4 ">
                   <h1 className="font-bold leading-[140%] text-xl md:text-[24px] text-center">
-                    Join Us for Innovative Learning Experiences and Networking
-                    Opportunities
+                    Research tour Of DURS
                   </h1>
                   <p className="text-[16px] text-center leading-[150%]">
                     Our workshops are designed to empower students with hands-on

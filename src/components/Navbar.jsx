@@ -49,10 +49,14 @@ const Navbar = () => {
                 Events Calendar
               </p>
             </a>
-
-            <p className="hover:underline p-2 hover:cursor-pointer roboto-nav">
+            <a href="#research-areas">
+              <p className="hover:underline p-2 hover:cursor-pointer roboto-nav">
               Research Areas
             </p>
+
+            </a>
+
+            
           </div>
         </div>
         <div>
