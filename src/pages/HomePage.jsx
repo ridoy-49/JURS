@@ -102,7 +102,9 @@ const HomePage = () => {
                   <path d="M12.0001 14C14.2061 14 16.0001 12.206 16.0001 10C16.0001 7.794 14.2061 6 12.0001 6C9.79406 6 8.00006 7.794 8.00006 10C8.00006 12.206 9.79406 14 12.0001 14ZM12.0001 8C13.1031 8 14.0001 8.897 14.0001 10C14.0001 11.103 13.1031 12 12.0001 12C10.8971 12 10.0001 11.103 10.0001 10C10.0001 8.897 10.8971 8 12.0001 8Z" />
                   <path d="M11.4201 21.814C11.5893 21.9349 11.7921 21.9998 12.0001 21.9998C12.2081 21.9998 12.4108 21.9349 12.5801 21.814C12.8841 21.599 20.0291 16.44 20.0001 10C20.0001 5.589 16.4111 2 12.0001 2C7.58909 2 4.00009 5.589 4.00009 9.995C3.97109 16.44 11.1161 21.599 11.4201 21.814ZM12.0001 4C15.3091 4 18.0001 6.691 18.0001 10.005C18.0211 14.443 13.6121 18.428 12.0001 19.735C10.3891 18.427 5.97909 14.441 6.00009 10C6.00009 6.691 8.69109 4 12.0001 4Z" />
                 </svg>
-                <span className="ml-2 poppins-semibold">Location: Jahir Rayhan Auditorium, Jahngirnagar University</span>
+                <span className="ml-2 poppins-semibold">
+                  Location: Jahir Rayhan Auditorium, Jahngirnagar University
+                </span>
               </p>
               <a
                 href="https://www.facebook.com/researchsociety.ju/posts/pfbid0VG516ScRdLfEcaJ2Xr1DNJv6UbKPNAmWhgjbkxtygnXU6RUfeFXDXGrNT1sAMA5dl"
@@ -223,7 +225,10 @@ const HomePage = () => {
           </div>
 
           {/* no.2 div */}
-          <div id="event-calender" className="py-3 md:py-5 flex flex-col justify-start items-start">
+          <div
+            id="event-calender"
+            className="py-3 md:py-5 flex flex-col justify-start items-start"
+          >
             <div className="my-3">
               <span className="px-3 border border-[#232323] rounded-2xl">
                 Future
@@ -300,7 +305,10 @@ const HomePage = () => {
             </div>
           </div>
           {/* no.3 div */}
-          <div id="research-areas" className="flex flex-col items-center md:gap-20 gap-6 mt-10">
+          <div
+            id="research-areas"
+            className="flex flex-col items-center md:gap-20 gap-6 mt-10"
+          >
             <div className="flex max-w-[767px]">
               <h1 className=" text-3xl md:text-[40px] font-bold leading-[120%] text-center">
                 Explore Our Engaging Project and Enhance Your Research Skills
@@ -372,7 +380,7 @@ const HomePage = () => {
                 />
                 <div className="flex flex-col gap-4 ">
                   <h1 className="font-bold leading-[140%] text-xl md:text-[24px] text-center">
-                    Project Obesity HPV & Servical Cancer
+                    Project KAP STUDY HPV & Servical Cancer
                   </h1>
                   <p className="text-[16px] text-center leading-[150%]">
                     Our workshops are designed to empower students with hands-on
@@ -397,7 +405,10 @@ const HomePage = () => {
             </div>
           </div>
           {/*profile div */}
-          <div id="about" className="flex flex-col items-center md:py-28 md:gap-20 gap-16 py-16">
+          <div
+            id="about"
+            className="flex flex-col items-center md:py-28 md:gap-20 gap-16 py-16"
+          >
             <div className="flex flex-col gap-4">
               <p className="text-center font-semibold text-[16px] leading-[150%]">
                 Meet
@@ -412,8 +423,19 @@ const HomePage = () => {
               </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3  gap-y-18 gap-x-16 ">
-              <div onClick={()=>window.open("https://www.facebook.com/alamin.bijoyy", "_blank")} className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src="Bijoy president.jpg" className="w-20 h-auto rounded-full" />
+              <div
+                onClick={() =>
+                  window.open(
+                    "https://www.facebook.com/alamin.bijoyy",
+                    "_blank"
+                  )
+                }
+                className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer"
+              >
+                <img
+                  src="Bijoy president.jpg"
+                  className="w-20 h-auto rounded-full"
+                />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
@@ -429,7 +451,10 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="flex flex-row gap-[14px]">
-                  <svg onClick={(e)=>{e.stopPropagation()}}
+                  <svg
+                    onClick={(e) => {
+                      e.stopPropagation();
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -440,14 +465,20 @@ const HomePage = () => {
                       d="M4.5 3.24268C3.67157 3.24268 3 3.91425 3 4.74268V19.7427C3 20.5711 3.67157 21.2427 4.5 21.2427H19.5C20.3284 21.2427 21 20.5711 21 19.7427V4.74268C21 3.91425 20.3284 3.24268 19.5 3.24268H4.5ZM8.52076 7.2454C8.52639 8.20165 7.81061 8.79087 6.96123 8.78665C6.16107 8.78243 5.46357 8.1454 5.46779 7.24681C5.47201 6.40165 6.13998 5.72243 7.00764 5.74212C7.88795 5.76181 8.52639 6.40728 8.52076 7.2454ZM12.2797 10.0044H9.75971H9.7583V18.5643H12.4217V18.3646C12.4217 17.9847 12.4214 17.6047 12.4211 17.2246C12.4203 16.2108 12.4194 15.1959 12.4246 14.1824C12.426 13.9363 12.4372 13.6804 12.5005 13.4455C12.7381 12.568 13.5271 12.0013 14.4074 12.1406C14.9727 12.2291 15.3467 12.5568 15.5042 13.0898C15.6013 13.423 15.6449 13.7816 15.6491 14.129C15.6605 15.1766 15.6589 16.2242 15.6573 17.2719C15.6567 17.6417 15.6561 18.0117 15.6561 18.3815V18.5629H18.328V18.3576C18.328 17.9056 18.3278 17.4537 18.3275 17.0018C18.327 15.8723 18.3264 14.7428 18.3294 13.6129C18.3308 13.1024 18.276 12.599 18.1508 12.1054C17.9638 11.3713 17.5771 10.7638 16.9485 10.3251C16.5027 10.0129 16.0133 9.81178 15.4663 9.78928C15.404 9.78669 15.3412 9.7833 15.2781 9.77989C14.9984 9.76477 14.7141 9.74941 14.4467 9.80334C13.6817 9.95662 13.0096 10.3068 12.5019 10.9241C12.4429 10.9949 12.3852 11.0668 12.2991 11.1741L12.2797 11.1984V10.0044ZM5.68164 18.5671H8.33242V10.01H5.68164V18.5671Z"
                     />
                   </svg>
-                  <svg onClick={(e)=>{e.stopPropagation()}}
+                  <svg
+                    onClick={(e) => {
+                      e.stopPropagation();
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
                   >
                     <path d="M17.1761 4.24268H19.9362L13.9061 11.0201L21 20.2427H15.4456L11.0951 14.6493L6.11723 20.2427H3.35544L9.80517 12.9935L3 4.24268H8.69545L12.6279 9.3553L17.1761 4.24268ZM16.2073 18.6181H17.7368L7.86441 5.78196H6.2232L16.2073 18.6181Z" />
                   </svg>
-                  <svg onClick={(e)=>{e.stopPropagation()}}
+                  <svg
+                    onClick={(e) => {
+                      e.stopPropagation();
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -456,8 +487,16 @@ const HomePage = () => {
                   </svg>
                 </div>
               </div>
-              <div onClick={()=>window.open("https://www.facebook.com/h.h.emon.14", "_blank")} className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src="Hasibul Hassain Emon Secretary.png" className="w-20 h-auto rounded-full" />
+              <div
+                onClick={() =>
+                  window.open("https://www.facebook.com/h.h.emon.14", "_blank")
+                }
+                className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer"
+              >
+                <img
+                  src="Hasibul Hassain Emon Secretary.png"
+                  className="w-20 h-auto rounded-full"
+                />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
@@ -473,7 +512,10 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="flex flex-row gap-[14px]">
-                  <svg onClick={(e)=>{e.stopPropagation()}}
+                  <svg
+                    onClick={(e) => {
+                      e.stopPropagation();
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -484,14 +526,20 @@ const HomePage = () => {
                       d="M4.5 3.24268C3.67157 3.24268 3 3.91425 3 4.74268V19.7427C3 20.5711 3.67157 21.2427 4.5 21.2427H19.5C20.3284 21.2427 21 20.5711 21 19.7427V4.74268C21 3.91425 20.3284 3.24268 19.5 3.24268H4.5ZM8.52076 7.2454C8.52639 8.20165 7.81061 8.79087 6.96123 8.78665C6.16107 8.78243 5.46357 8.1454 5.46779 7.24681C5.47201 6.40165 6.13998 5.72243 7.00764 5.74212C7.88795 5.76181 8.52639 6.40728 8.52076 7.2454ZM12.2797 10.0044H9.75971H9.7583V18.5643H12.4217V18.3646C12.4217 17.9847 12.4214 17.6047 12.4211 17.2246C12.4203 16.2108 12.4194 15.1959 12.4246 14.1824C12.426 13.9363 12.4372 13.6804 12.5005 13.4455C12.7381 12.568 13.5271 12.0013 14.4074 12.1406C14.9727 12.2291 15.3467 12.5568 15.5042 13.0898C15.6013 13.423 15.6449 13.7816 15.6491 14.129C15.6605 15.1766 15.6589 16.2242 15.6573 17.2719C15.6567 17.6417 15.6561 18.0117 15.6561 18.3815V18.5629H18.328V18.3576C18.328 17.9056 18.3278 17.4537 18.3275 17.0018C18.327 15.8723 18.3264 14.7428 18.3294 13.6129C18.3308 13.1024 18.276 12.599 18.1508 12.1054C17.9638 11.3713 17.5771 10.7638 16.9485 10.3251C16.5027 10.0129 16.0133 9.81178 15.4663 9.78928C15.404 9.78669 15.3412 9.7833 15.2781 9.77989C14.9984 9.76477 14.7141 9.74941 14.4467 9.80334C13.6817 9.95662 13.0096 10.3068 12.5019 10.9241C12.4429 10.9949 12.3852 11.0668 12.2991 11.1741L12.2797 11.1984V10.0044ZM5.68164 18.5671H8.33242V10.01H5.68164V18.5671Z"
                     />
                   </svg>
-                  <svg onClick={(e)=>{e.stopPropagation()}}
+                  <svg
+                    onClick={(e) => {
+                      e.stopPropagation();
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
                   >
                     <path d="M17.1761 4.24268H19.9362L13.9061 11.0201L21 20.2427H15.4456L11.0951 14.6493L6.11723 20.2427H3.35544L9.80517 12.9935L3 4.24268H8.69545L12.6279 9.3553L17.1761 4.24268ZM16.2073 18.6181H17.7368L7.86441 5.78196H6.2232L16.2073 18.6181Z" />
                   </svg>
-                  <svg onClick={(e)=>{e.stopPropagation()}}
+                  <svg
+                    onClick={(e) => {
+                      e.stopPropagation();
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -500,8 +548,19 @@ const HomePage = () => {
                   </svg>
                 </div>
               </div>
-              <div onClick={()=>window.open("https://www.facebook.com/moinur.rahman.142455", "_blank")} className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
-                <img src="Moinur Rahman VP.jpg" className="w-20 h-auto rounded-full" />
+              <div
+                onClick={() =>
+                  window.open(
+                    "https://www.facebook.com/moinur.rahman.142455",
+                    "_blank"
+                  )
+                }
+                className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer"
+              >
+                <img
+                  src="Moinur Rahman VP.jpg"
+                  className="w-20 h-auto rounded-full"
+                />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
@@ -517,7 +576,10 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="flex flex-row gap-[14px]">
-                  <svg onClick={(e)=>{e.stopPropagation()}}
+                  <svg
+                    onClick={(e) => {
+                      e.stopPropagation();
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -528,14 +590,20 @@ const HomePage = () => {
                       d="M4.5 3.24268C3.67157 3.24268 3 3.91425 3 4.74268V19.7427C3 20.5711 3.67157 21.2427 4.5 21.2427H19.5C20.3284 21.2427 21 20.5711 21 19.7427V4.74268C21 3.91425 20.3284 3.24268 19.5 3.24268H4.5ZM8.52076 7.2454C8.52639 8.20165 7.81061 8.79087 6.96123 8.78665C6.16107 8.78243 5.46357 8.1454 5.46779 7.24681C5.47201 6.40165 6.13998 5.72243 7.00764 5.74212C7.88795 5.76181 8.52639 6.40728 8.52076 7.2454ZM12.2797 10.0044H9.75971H9.7583V18.5643H12.4217V18.3646C12.4217 17.9847 12.4214 17.6047 12.4211 17.2246C12.4203 16.2108 12.4194 15.1959 12.4246 14.1824C12.426 13.9363 12.4372 13.6804 12.5005 13.4455C12.7381 12.568 13.5271 12.0013 14.4074 12.1406C14.9727 12.2291 15.3467 12.5568 15.5042 13.0898C15.6013 13.423 15.6449 13.7816 15.6491 14.129C15.6605 15.1766 15.6589 16.2242 15.6573 17.2719C15.6567 17.6417 15.6561 18.0117 15.6561 18.3815V18.5629H18.328V18.3576C18.328 17.9056 18.3278 17.4537 18.3275 17.0018C18.327 15.8723 18.3264 14.7428 18.3294 13.6129C18.3308 13.1024 18.276 12.599 18.1508 12.1054C17.9638 11.3713 17.5771 10.7638 16.9485 10.3251C16.5027 10.0129 16.0133 9.81178 15.4663 9.78928C15.404 9.78669 15.3412 9.7833 15.2781 9.77989C14.9984 9.76477 14.7141 9.74941 14.4467 9.80334C13.6817 9.95662 13.0096 10.3068 12.5019 10.9241C12.4429 10.9949 12.3852 11.0668 12.2991 11.1741L12.2797 11.1984V10.0044ZM5.68164 18.5671H8.33242V10.01H5.68164V18.5671Z"
                     />
                   </svg>
-                  <svg onClick={(e)=>{e.stopPropagation()}}
+                  <svg
+                    onClick={(e) => {
+                      e.stopPropagation();
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
                   >
                     <path d="M17.1761 4.24268H19.9362L13.9061 11.0201L21 20.2427H15.4456L11.0951 14.6493L6.11723 20.2427H3.35544L9.80517 12.9935L3 4.24268H8.69545L12.6279 9.3553L17.1761 4.24268ZM16.2073 18.6181H17.7368L7.86441 5.78196H6.2232L16.2073 18.6181Z" />
                   </svg>
-                  <svg onClick={(e)=>{e.stopPropagation()}}
+                  <svg
+                    onClick={(e) => {
+                      e.stopPropagation();
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -544,7 +612,15 @@ const HomePage = () => {
                   </svg>
                 </div>
               </div>
-              <div onClick={()=>window.open("https://www.facebook.com/fatimaakter.bithi.3", "_blank")} className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
+              <div
+                onClick={() =>
+                  window.open(
+                    "https://www.facebook.com/fatimaakter.bithi.3",
+                    "_blank"
+                  )
+                }
+                className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer"
+              >
                 <img src="Bithi  Vp.jpg" className="w-20 h-auto rounded-full" />
                 <div className="flex flex-col gap-4">
                   <div>
@@ -561,7 +637,10 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="flex flex-row gap-[14px]">
-                  <svg onClick={(e)=>{e.stopPropagation()}}
+                  <svg
+                    onClick={(e) => {
+                      e.stopPropagation();
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -572,14 +651,20 @@ const HomePage = () => {
                       d="M4.5 3.24268C3.67157 3.24268 3 3.91425 3 4.74268V19.7427C3 20.5711 3.67157 21.2427 4.5 21.2427H19.5C20.3284 21.2427 21 20.5711 21 19.7427V4.74268C21 3.91425 20.3284 3.24268 19.5 3.24268H4.5ZM8.52076 7.2454C8.52639 8.20165 7.81061 8.79087 6.96123 8.78665C6.16107 8.78243 5.46357 8.1454 5.46779 7.24681C5.47201 6.40165 6.13998 5.72243 7.00764 5.74212C7.88795 5.76181 8.52639 6.40728 8.52076 7.2454ZM12.2797 10.0044H9.75971H9.7583V18.5643H12.4217V18.3646C12.4217 17.9847 12.4214 17.6047 12.4211 17.2246C12.4203 16.2108 12.4194 15.1959 12.4246 14.1824C12.426 13.9363 12.4372 13.6804 12.5005 13.4455C12.7381 12.568 13.5271 12.0013 14.4074 12.1406C14.9727 12.2291 15.3467 12.5568 15.5042 13.0898C15.6013 13.423 15.6449 13.7816 15.6491 14.129C15.6605 15.1766 15.6589 16.2242 15.6573 17.2719C15.6567 17.6417 15.6561 18.0117 15.6561 18.3815V18.5629H18.328V18.3576C18.328 17.9056 18.3278 17.4537 18.3275 17.0018C18.327 15.8723 18.3264 14.7428 18.3294 13.6129C18.3308 13.1024 18.276 12.599 18.1508 12.1054C17.9638 11.3713 17.5771 10.7638 16.9485 10.3251C16.5027 10.0129 16.0133 9.81178 15.4663 9.78928C15.404 9.78669 15.3412 9.7833 15.2781 9.77989C14.9984 9.76477 14.7141 9.74941 14.4467 9.80334C13.6817 9.95662 13.0096 10.3068 12.5019 10.9241C12.4429 10.9949 12.3852 11.0668 12.2991 11.1741L12.2797 11.1984V10.0044ZM5.68164 18.5671H8.33242V10.01H5.68164V18.5671Z"
                     />
                   </svg>
-                  <svg onClick={(e)=>{e.stopPropagation()}}
+                  <svg
+                    onClick={(e) => {
+                      e.stopPropagation();
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
                   >
                     <path d="M17.1761 4.24268H19.9362L13.9061 11.0201L21 20.2427H15.4456L11.0951 14.6493L6.11723 20.2427H3.35544L9.80517 12.9935L3 4.24268H8.69545L12.6279 9.3553L17.1761 4.24268ZM16.2073 18.6181H17.7368L7.86441 5.78196H6.2232L16.2073 18.6181Z" />
                   </svg>
-                  <svg onClick={(e)=>{e.stopPropagation()}}
+                  <svg
+                    onClick={(e) => {
+                      e.stopPropagation();
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -588,7 +673,15 @@ const HomePage = () => {
                   </svg>
                 </div>
               </div>
-              <div onClick={()=>window.open("https://www.facebook.com/abu.rumman.85110", "_blank")} className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
+              <div
+                onClick={() =>
+                  window.open(
+                    "https://www.facebook.com/abu.rumman.85110",
+                    "_blank"
+                  )
+                }
+                className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer"
+              >
                 <img src="Rumman JS.jpg" className="w-20 h-auto rounded-full" />
                 <div className="flex flex-col gap-4">
                   <div>
@@ -605,7 +698,10 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="flex flex-row gap-[14px]">
-                  <svg  onClick={(e)=>{e.stopPropagation()}}
+                  <svg
+                    onClick={(e) => {
+                      e.stopPropagation();
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -616,14 +712,20 @@ const HomePage = () => {
                       d="M4.5 3.24268C3.67157 3.24268 3 3.91425 3 4.74268V19.7427C3 20.5711 3.67157 21.2427 4.5 21.2427H19.5C20.3284 21.2427 21 20.5711 21 19.7427V4.74268C21 3.91425 20.3284 3.24268 19.5 3.24268H4.5ZM8.52076 7.2454C8.52639 8.20165 7.81061 8.79087 6.96123 8.78665C6.16107 8.78243 5.46357 8.1454 5.46779 7.24681C5.47201 6.40165 6.13998 5.72243 7.00764 5.74212C7.88795 5.76181 8.52639 6.40728 8.52076 7.2454ZM12.2797 10.0044H9.75971H9.7583V18.5643H12.4217V18.3646C12.4217 17.9847 12.4214 17.6047 12.4211 17.2246C12.4203 16.2108 12.4194 15.1959 12.4246 14.1824C12.426 13.9363 12.4372 13.6804 12.5005 13.4455C12.7381 12.568 13.5271 12.0013 14.4074 12.1406C14.9727 12.2291 15.3467 12.5568 15.5042 13.0898C15.6013 13.423 15.6449 13.7816 15.6491 14.129C15.6605 15.1766 15.6589 16.2242 15.6573 17.2719C15.6567 17.6417 15.6561 18.0117 15.6561 18.3815V18.5629H18.328V18.3576C18.328 17.9056 18.3278 17.4537 18.3275 17.0018C18.327 15.8723 18.3264 14.7428 18.3294 13.6129C18.3308 13.1024 18.276 12.599 18.1508 12.1054C17.9638 11.3713 17.5771 10.7638 16.9485 10.3251C16.5027 10.0129 16.0133 9.81178 15.4663 9.78928C15.404 9.78669 15.3412 9.7833 15.2781 9.77989C14.9984 9.76477 14.7141 9.74941 14.4467 9.80334C13.6817 9.95662 13.0096 10.3068 12.5019 10.9241C12.4429 10.9949 12.3852 11.0668 12.2991 11.1741L12.2797 11.1984V10.0044ZM5.68164 18.5671H8.33242V10.01H5.68164V18.5671Z"
                     />
                   </svg>
-                  <svg onClick={(e)=>{e.stopPropagation()}}
+                  <svg
+                    onClick={(e) => {
+                      e.stopPropagation();
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
                   >
                     <path d="M17.1761 4.24268H19.9362L13.9061 11.0201L21 20.2427H15.4456L11.0951 14.6493L6.11723 20.2427H3.35544L9.80517 12.9935L3 4.24268H8.69545L12.6279 9.3553L17.1761 4.24268ZM16.2073 18.6181H17.7368L7.86441 5.78196H6.2232L16.2073 18.6181Z" />
                   </svg>
-                  <svg onClick={(e)=>{e.stopPropagation()}}
+                  <svg
+                    onClick={(e) => {
+                      e.stopPropagation();
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -632,12 +734,20 @@ const HomePage = () => {
                   </svg>
                 </div>
               </div>
-              <div onClick={()=>window.open("https://www.facebook.com/Iamridoyhalder", "_blank")} className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer">
+              <div
+                onClick={() =>
+                  window.open(
+                    "https://www.facebook.com/Iamridoyhalder",
+                    "_blank"
+                  )
+                }
+                className="flex flex-col gap-6 justify-center items-center hover:cursor-pointer"
+              >
                 <img src="Hridoy js.jpg" className="w-20 h-auto rounded-full" />
                 <div className="flex flex-col gap-4">
                   <div>
                     <p className="text-center font-semibold text-[20px] leading-[150%]">
-                     Hriday Halder
+                      Hriday Halder
                     </p>
                     <p className="text-center font-light text-[14px] leading-[150%]">
                       Joint Secretary
@@ -649,7 +759,10 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="flex flex-row gap-[14px]">
-                  <svg onClick={(e)=>{e.stopPropagation()}}
+                  <svg
+                    onClick={(e) => {
+                      e.stopPropagation();
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -660,14 +773,24 @@ const HomePage = () => {
                       d="M4.5 3.24268C3.67157 3.24268 3 3.91425 3 4.74268V19.7427C3 20.5711 3.67157 21.2427 4.5 21.2427H19.5C20.3284 21.2427 21 20.5711 21 19.7427V4.74268C21 3.91425 20.3284 3.24268 19.5 3.24268H4.5ZM8.52076 7.2454C8.52639 8.20165 7.81061 8.79087 6.96123 8.78665C6.16107 8.78243 5.46357 8.1454 5.46779 7.24681C5.47201 6.40165 6.13998 5.72243 7.00764 5.74212C7.88795 5.76181 8.52639 6.40728 8.52076 7.2454ZM12.2797 10.0044H9.75971H9.7583V18.5643H12.4217V18.3646C12.4217 17.9847 12.4214 17.6047 12.4211 17.2246C12.4203 16.2108 12.4194 15.1959 12.4246 14.1824C12.426 13.9363 12.4372 13.6804 12.5005 13.4455C12.7381 12.568 13.5271 12.0013 14.4074 12.1406C14.9727 12.2291 15.3467 12.5568 15.5042 13.0898C15.6013 13.423 15.6449 13.7816 15.6491 14.129C15.6605 15.1766 15.6589 16.2242 15.6573 17.2719C15.6567 17.6417 15.6561 18.0117 15.6561 18.3815V18.5629H18.328V18.3576C18.328 17.9056 18.3278 17.4537 18.3275 17.0018C18.327 15.8723 18.3264 14.7428 18.3294 13.6129C18.3308 13.1024 18.276 12.599 18.1508 12.1054C17.9638 11.3713 17.5771 10.7638 16.9485 10.3251C16.5027 10.0129 16.0133 9.81178 15.4663 9.78928C15.404 9.78669 15.3412 9.7833 15.2781 9.77989C14.9984 9.76477 14.7141 9.74941 14.4467 9.80334C13.6817 9.95662 13.0096 10.3068 12.5019 10.9241C12.4429 10.9949 12.3852 11.0668 12.2991 11.1741L12.2797 11.1984V10.0044ZM5.68164 18.5671H8.33242V10.01H5.68164V18.5671Z"
                     />
                   </svg>
-                  <svg onClick={(e)=>{e.stopPropagation()}}
+                  <svg
+                    onClick={(e) => {
+                      e.stopPropagation();
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
                   >
                     <path d="M17.1761 4.24268H19.9362L13.9061 11.0201L21 20.2427H15.4456L11.0951 14.6493L6.11723 20.2427H3.35544L9.80517 12.9935L3 4.24268H8.69545L12.6279 9.3553L17.1761 4.24268ZM16.2073 18.6181H17.7368L7.86441 5.78196H6.2232L16.2073 18.6181Z" />
                   </svg>
-                  <svg onClick={(e)=>{e.stopPropagation(),window.open("https://www.facebook.com/Iamridoyhalder", "_blank")}}
+                  <svg
+                    onClick={(e) => {
+                      e.stopPropagation(),
+                        window.open(
+                          "https://www.facebook.com/Iamridoyhalder",
+                          "_blank"
+                        );
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 fill-[#232323] hover:scale-120"
@@ -742,7 +865,15 @@ const HomePage = () => {
               </h1>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 py-2 gap-8">
-              <div  onClick={()=>window.open("https://www.channelionline.com/training-workshop-of-jabi-research-council-with-more-than-two-hundred-students/", "_blank")} className="flex flex-col  pb-6 gap-8 hover:cursor-pointer">
+              <div
+                onClick={() =>
+                  window.open(
+                    "https://www.channelionline.com/training-workshop-of-jabi-research-council-with-more-than-two-hundred-students/",
+                    "_blank"
+                  )
+                }
+                className="flex flex-col  pb-6 gap-8 hover:cursor-pointer"
+              >
                 <img
                   src="news1.jpg"
                   className="h-auto w-screen rounded-t-2xl "
@@ -771,7 +902,15 @@ const HomePage = () => {
                   </p>
                 </div>
               </div>
-              <div onClick={()=>window.open("https://www.rupalibangladesh.com/campus/anniversary--renewal-of-research-society-held-at-jabit/14245?fbclid=IwQ0xDSwLVT6xleHRuA2FlbQIxMQABHoCD_9s3wG673VACF9qOxPiqJF03WBR-jeYUWsZLc_tqBMAhiyS1PK3kymyk_aem_JywJMNu3xy1MZDrgGtFRmw", "_blank")} className="flex flex-col  pb-6 gap-8 hover:cursor-pointer">
+              <div
+                onClick={() =>
+                  window.open(
+                    "https://www.rupalibangladesh.com/campus/anniversary--renewal-of-research-society-held-at-jabit/14245?fbclid=IwQ0xDSwLVT6xleHRuA2FlbQIxMQABHoCD_9s3wG673VACF9qOxPiqJF03WBR-jeYUWsZLc_tqBMAhiyS1PK3kymyk_aem_JywJMNu3xy1MZDrgGtFRmw",
+                    "_blank"
+                  )
+                }
+                className="flex flex-col  pb-6 gap-8 hover:cursor-pointer"
+              >
                 <img
                   src="news3.jpg"
                   className="h-auto w-screen rounded-t-2xl "
@@ -800,7 +939,15 @@ const HomePage = () => {
                   </p>
                 </div>
               </div>
-              <div onClick={()=>window.open("https://www.channelionline.com/100-students-of-du-research-society-at-jahangirnagar-university/", "_blank")} className="flex flex-col  pb-6 gap-8 hover:cursor-pointer">
+              <div
+                onClick={() =>
+                  window.open(
+                    "https://www.channelionline.com/100-students-of-du-research-society-at-jahangirnagar-university/",
+                    "_blank"
+                  )
+                }
+                className="flex flex-col  pb-6 gap-8 hover:cursor-pointer"
+              >
                 <img
                   src="new2.jpg"
                   className="h-auto w-screen rounded-t-2xl "
